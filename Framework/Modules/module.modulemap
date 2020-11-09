@@ -1,0 +1,6 @@
+framework module BBNativePlayerKit {
+  umbrella header "BBNativePlayerKit.h"
+
+  export *
+  module * { export * }
+}
