@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BBNativePlayerKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Blue Billywig native player kit"
 
   # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://www.bluebillywig.com/nl/"
 
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
 
 
   
@@ -61,10 +61,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "Framework/**/*"
+  # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "Framework/Headers/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
