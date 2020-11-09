@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BlueBillywigNativePlayerKit-iOS"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Blue Billywig native player kit"
 
   # This description is used to generate tags and improve search results.
