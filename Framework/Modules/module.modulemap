@@ -4,3 +4,8 @@ framework module BBNativePlayerKit {
   export *
   module * { export * }
 }
+
+module BBNativePlayerKit.Swift {
+    header "BBNativePlayerKit-Swift.h"
+    requires objc
+}
