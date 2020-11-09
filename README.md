@@ -12,5 +12,5 @@ pod 'BlueBillywigNativePlayerKit-iOS'
 or
 
 ```ruby
-pod 'BlueBillywigNativePlayerKit-TVOS'
+pod 'BlueBillywigNativePlayerKit-tvOS'
 ```
