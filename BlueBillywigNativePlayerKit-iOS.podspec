@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "BBNativePlayerKit"
-  spec.version      = "0.0.2"
+  spec.name         = "BlueBillywigNativePlayerKit-iOS"
+  spec.version      = "0.0.3"
   spec.summary      = "Blue Billywig native player kit"
 
   # This description is used to generate tags and improve search results.
@@ -25,10 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  Blue Billywig native player kit is used to play blue billywig mediaclips using the nastive ios player
+  Blue Billywig native player kit is used to play Blue Billywig mediaclips using the native ios player
                    DESC
 
-  spec.homepage     = "https://www.bluebillywig.com/nl/"
+  spec.homepage     = "https://www.bluebillywig.com/"
 
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
 
