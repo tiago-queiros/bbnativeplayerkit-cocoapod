@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "BlueBillywigNativePlayerKit-iOS"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "Blue Billywig native player kit"
 
   spec.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   # spec.tvos.deployment_target = "9.0"
   
   spec.ios.deployment_target = '10.0'
-  spec.ios.vendored_frameworks = 'Framework/BBNativePlayerKit.framework'
+  spec.ios.vendored_frameworks = 'BBNativePlayerKit.framework'
   spec.source       = { :git => "https://github.com/bluebillywig/bbnativeplayerkit-cocoapod.git", :tag => "#{spec.version}" }
 
 
