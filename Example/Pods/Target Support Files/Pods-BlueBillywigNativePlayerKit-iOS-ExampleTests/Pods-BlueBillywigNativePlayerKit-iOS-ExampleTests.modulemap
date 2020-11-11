@@ -1,0 +1,6 @@
+framework module Pods_BlueBillywigNativePlayerKit_iOS_ExampleTests {
+  umbrella header "Pods-BlueBillywigNativePlayerKit-iOS-ExampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "a83abeb9230eb00574e188b7dc51f101"
+build_time: [1605084422, 275462000]
+inputs:
+  "/Users/Olaf/Documents/Projects/BlueBillywig/BlueBillywigNativePlayerKit-iOS-Example/BlueBillywigNativePlayerKit-iOS-Example/ViewController.swift": [1604992666, 901989345]
+  "/Users/Olaf/Documents/Projects/BlueBillywig/BlueBillywigNativePlayerKit-iOS-Example/BlueBillywigNativePlayerKit-iOS-Example/AppDelegate.swift": [1604932510, 681818299]
+  "/Users/Olaf/Documents/Projects/BlueBillywig/BlueBillywigNativePlayerKit-iOS-Example/BlueBillywigNativePlayerKit-iOS-Example/SceneDelegate.swift": [1604932510, 705320772]

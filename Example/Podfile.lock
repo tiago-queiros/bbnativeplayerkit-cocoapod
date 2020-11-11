@@ -1,0 +1,16 @@
+PODS:
+  - BlueBillywigNativePlayerKit-iOS (0.0.8)
+
+DEPENDENCIES:
+  - BlueBillywigNativePlayerKit-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  BlueBillywigNativePlayerKit-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BlueBillywigNativePlayerKit-iOS: b4dab4e1ac8f55bfe699f632e477b289fa7d654f
+
+PODFILE CHECKSUM: bf65292ee00a3efd14e68635972a2d474e06bac4
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'BlueBillywigNativePlayerKit-iOS-Example' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for BlueBillywigNativePlayerKit-iOS-Example
+  pod 'BlueBillywigNativePlayerKit-iOS', :path => '../'
+
+  target 'BlueBillywigNativePlayerKit-iOS-ExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BlueBillywigNativePlayerKit-iOS-ExampleUITests' do
+    # Pods for testing
+  end
+
+end

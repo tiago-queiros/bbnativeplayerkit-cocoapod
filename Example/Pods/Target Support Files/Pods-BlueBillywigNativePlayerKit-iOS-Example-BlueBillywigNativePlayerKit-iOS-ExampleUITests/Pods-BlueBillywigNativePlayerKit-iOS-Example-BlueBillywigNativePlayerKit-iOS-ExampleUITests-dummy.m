@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_BlueBillywigNativePlayerKit_iOS_Example_BlueBillywigNativePlayerKit_iOS_ExampleUITests : NSObject
+@end
+@implementation PodsDummy_Pods_BlueBillywigNativePlayerKit_iOS_Example_BlueBillywigNativePlayerKit_iOS_ExampleUITests
+@end
