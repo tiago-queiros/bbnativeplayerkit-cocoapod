@@ -2,12 +2,12 @@
 Pod::Spec.new do |spec|
 
 
-  spec.name         = "BlueBillywigNativePlayerKit-iOS"
+  spec.name         = "BlueBillywigNativePlayerKit-tvOS"
   spec.version      = "0.0.10"
   spec.summary      = "Blue Billywig native player kit"
 
   spec.description  = <<-DESC
-  Blue Billywig native player kit is used to play Blue Billywig mediaclips using the native ios player
+  Blue Billywig native player kit is used to play Blue Billywig mediaclips using the native tvos player
                    DESC
 
   spec.homepage     = "https://www.bluebillywig.com/"
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   # spec.watchos.deployment_target = "2.0"
   
   spec.tvos.deployment_target = "13.4"
-  spec.ios.vendored_frameworks = 'BBNativePlayerKit_tvOS.framework'
+  spec.tvos.vendored_frameworks = 'BBNativePlayerKit_tvOS.framework'
   spec.source       = { :git => "https://github.com/bluebillywig/bbnativeplayerkit-cocoapod.git", :tag => "#{spec.version}" }
 
 
