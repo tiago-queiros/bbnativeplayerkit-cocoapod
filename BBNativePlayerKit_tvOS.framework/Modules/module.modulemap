@@ -1,0 +1,11 @@
+framework module BBNativePlayerKit_tvOS {
+  umbrella header "BBNativePlayerKit_tvOS.h"
+
+  export *
+  module * { export * }
+}
+
+module BBNativePlayerKit_tvOS.Swift {
+    header "BBNativePlayerKit_tvOS-Swift.h"
+    requires objc
+}
