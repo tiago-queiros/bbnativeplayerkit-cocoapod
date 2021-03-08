@@ -230,6 +230,7 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
 - (void)onEventEventType:(SharedEventName * _Nonnull)eventType data:(NSDictionary<NSString *, id> * _Nullable)data;
 @end
 
+
 @class NSBundle;
 
 SWIFT_CLASS("_TtC17BBNativePlayerKit28BBNativePlayerViewController")
@@ -240,23 +241,55 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit28BBNativePlayerViewController")
 - (void)viewDidDisappear:(BOOL)animated;
 @end
 
+@class SharedEmbedObject;
+@class SharedMediaClip;
+@class SharedProject;
 
 SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 @protocol BBNativePlayerViewDelegate
-- (void)didFailWithErrorWithError:(NSError * _Nonnull)error;
-- (void)didSetupWithJsonUrl;
 @optional
-- (void)apiDidTriggerCanplay;
-- (void)apiDidTriggerPlay;
-- (void)apiDidTriggerPause;
-- (void)apiDidTriggerFinish;
-- (void)apiDidTriggerSeek;
-- (void)apiDidTriggerTimeUpdateWithTimeOffset:(float)timeOffset;
-- (void)apiDidTriggerWaitingToPlayAtSpecificRate;
-- (void)apiDidTriggerStalled;
-- (void)apiDidTriggerFailedToPlayToEndTime;
-- (void)apiDidRequestOpenUrlWithUrl:(NSString * _Nonnull)url;
+/// Embed data was loaded.
+/// \param data EmbedData Object
+///
+- (void)didLoadEmbedDataWithData:(SharedEmbedObject * _Nonnull)data;
+/// MediaClip data was loaded.
+/// \param data MediaClip Object
+///
+- (void)didLoadMediaClipDataWithData:(SharedMediaClip * _Nonnull)data;
+/// Project data was loaded.
+/// \param data Project Object
+///
+- (void)didLoadProjectDataWithData:(SharedProject * _Nonnull)data;
+/// The player is now ready to play.
+- (void)didTriggerCanplay;
+/// The player has executed a play command.
+- (void)didTriggerPlay;
+/// The player is now paused.
+- (void)didTriggerPause;
+/// The player is now playing.
+- (void)didTriggerPlaying;
+/// The player is now seeking.
+- (void)didTriggerSeeking;
+/// The current playback position has changed by the player as a result of a seek action.
+- (void)didTriggerSeek;
+/// Playback has stopped because the end of the media resource was reached.
+- (void)didTriggerEnd;
+/// The player has started for the first time. This event only happens once before the ended event.
+- (void)didTriggerStart;
+/// The player is trying to fetch new media data, but is unable to retrieve it and continue playing.
+- (void)didTriggerStall;
+/// The buffer has been updated by the player.
+- (void)didTriggerProgress;
+/// The player has encountered an error which prevents it from playing the content further.
+/// \param data Error Object
+///
+- (void)didTriggerErrorWithError:(NSError * _Nullable)error;
+/// The advertisment provider encountered an error which prevents the ad from playing in the player.
+/// \param data Error Object
+///
+- (void)didTriggerAdErrorWithError:(NSError * _Nullable)error;
 @end
+
 
 
 
