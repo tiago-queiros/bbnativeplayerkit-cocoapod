@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "BlueBillywigNativePlayerKit-iOS"
-  spec.version      = "0.0.12"
+  spec.version      = "0.0.14"
   spec.summary      = "Blue Billywig native player kit"
 
   spec.description  = <<-DESC
@@ -22,6 +22,7 @@ Pod::Spec.new do |spec|
   # spec.tvos.deployment_target = "9.0"
   
   spec.ios.deployment_target = '11.0'
+  # spec.ios.vendored_frameworks = 'BBNativePlayerKit.framework'
   spec.ios.vendored_frameworks = 'BBNativePlayerKit.xcframework'
   spec.source       = { :git => "https://github.com/bluebillywig/bbnativeplayerkit-cocoapod.git", :tag => "#{spec.version}" }
 
@@ -30,4 +31,9 @@ Pod::Spec.new do |spec|
   spec.framework  = "UIKit", "Foundation", "AVFoundation"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
 end

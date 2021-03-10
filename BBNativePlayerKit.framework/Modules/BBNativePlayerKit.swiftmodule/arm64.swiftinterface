@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BBNativePlayerKit
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BBNativePlayerKit
 import AVFoundation
 import AVKit
 @_exported import BBNativePlayerKit
@@ -54,7 +54,7 @@ extension BBNativePlayerView : shared.EventListenerInterface {
   public var delegate: BBNativePlayerKit.BBNativePlayerViewDelegate?
   public var nativeControls: Swift.Bool {
     get
-    set
+    set(value)
   }
   public func presentModal(uiViewContoller: UIKit.UIViewController, animated: Swift.Bool)
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
@@ -76,7 +76,7 @@ public class BBNativePlayer {
   @objc deinit
 }
 extension UIColor {
-  convenience public init?(hex: Swift.String)
+  public convenience init?(hex: Swift.String)
 }
 extension UIView {
   public func isVisible() -> Swift.Bool
