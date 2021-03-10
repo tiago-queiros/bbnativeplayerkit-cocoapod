@@ -22,8 +22,8 @@ Pod::Spec.new do |spec|
   # spec.tvos.deployment_target = "9.0"
   
   spec.ios.deployment_target = '11.0'
-  # spec.ios.vendored_frameworks = 'BBNativePlayerKit.framework'
-  spec.ios.vendored_frameworks = 'BBNativePlayerKit.xcframework'
+  spec.ios.vendored_frameworks = 'BBNativePlayerKit.framework'
+  # spec.ios.vendored_frameworks = 'BBNativePlayerKit.xcframework'
   spec.source       = { :git => "https://github.com/bluebillywig/bbnativeplayerkit-cocoapod.git", :tag => "#{spec.version}" }
 
   spec.dependency   'GoogleAds-IMA-iOS-SDK', '~> 3.13.0'
