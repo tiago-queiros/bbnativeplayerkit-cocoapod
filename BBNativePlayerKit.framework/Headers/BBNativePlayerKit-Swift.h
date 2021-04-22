@@ -192,7 +192,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import Foundation;
 @import UIKit;
-@import shared;
+@import bbnativeshared;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -224,10 +224,10 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
 @interface BBNativePlayerView (SWIFT_EXTENSION(BBNativePlayerKit)) <AVPlayerViewControllerDelegate>
 @end
 
-@class SharedEventName;
+@class BbnativesharedEventName;
 
-@interface BBNativePlayerView (SWIFT_EXTENSION(BBNativePlayerKit)) <SharedEventListenerInterface>
-- (void)onEventEventType:(SharedEventName * _Nonnull)eventType data:(NSDictionary<NSString *, id> * _Nullable)data;
+@interface BBNativePlayerView (SWIFT_EXTENSION(BBNativePlayerKit)) <BbnativesharedEventListenerInterface>
+- (void)onEventEventType:(BbnativesharedEventName * _Nonnull)eventType data:(NSDictionary<NSString *, id> * _Nullable)data;
 @end
 
 
@@ -241,53 +241,70 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit28BBNativePlayerViewController")
 - (void)viewDidDisappear:(BOOL)animated;
 @end
 
-@class SharedEmbedObject;
-@class SharedMediaClip;
-@class SharedProject;
+@class BbnativesharedMediaClip;
+@class BbnativesharedProject;
+@class BbnativesharedPhase;
+@class BbnativesharedState;
 
 SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 @protocol BBNativePlayerViewDelegate
 @optional
-/// Embed data was loaded.
+/// Player was setup with json
 /// \param data EmbedData Object
 ///
-- (void)didLoadEmbedDataWithData:(SharedEmbedObject * _Nonnull)data;
+- (void)didSetupWithJsonWithUrl:(NSString * _Nullable)url;
 /// MediaClip data was loaded.
 /// \param data MediaClip Object
 ///
-- (void)didLoadMediaClipDataWithData:(SharedMediaClip * _Nonnull)data;
+- (void)didTriggerMediaClipLoadedWithData:(BbnativesharedMediaClip * _Nonnull)data;
+/// MediaClip failed.
+/// \param data none
+///
+- (void)didTriggerMediaClipFailed;
+/// The playet view has started
+/// \param data none
+///
+- (void)didTriggerViewStarted;
+/// The player view has finished
+/// \param data none
+///
+- (void)didTriggerViewFinished;
 /// Project data was loaded.
 /// \param data Project Object
 ///
-- (void)didLoadProjectDataWithData:(SharedProject * _Nonnull)data;
+- (void)didTriggerProjectLoadedWithData:(BbnativesharedProject * _Nonnull)data;
 /// The player is now ready to play.
-- (void)didTriggerCanplay;
+- (void)didTriggerCanPlay;
+/// The duration of the media in the player has changed
+- (void)didTriggerDurationChangeWithDuration:(double)duration;
 /// The player has executed a play command.
 - (void)didTriggerPlay;
 /// The player is now paused.
 - (void)didTriggerPause;
+/// The player was paused externally
+- (void)didTriggerAutoPause;
+/// The externally paused player is now playing.
+- (void)didTriggerAutoPausePlay;
 /// The player is now playing.
 - (void)didTriggerPlaying;
 /// The player is now seeking.
 - (void)didTriggerSeeking;
 /// The current playback position has changed by the player as a result of a seek action.
-- (void)didTriggerSeek;
-/// Playback has stopped because the end of the media resource was reached.
-- (void)didTriggerEnd;
-/// The player has started for the first time. This event only happens once before the ended event.
-- (void)didTriggerStart;
+- (void)didTriggerSeekedWithSeekOffset:(double)seekOffset;
 /// The player is trying to fetch new media data, but is unable to retrieve it and continue playing.
 - (void)didTriggerStall;
-/// The buffer has been updated by the player.
-- (void)didTriggerProgress;
 /// The player has encountered an error which prevents it from playing the content further.
 /// \param data Error Object
 ///
-- (void)didTriggerErrorWithError:(NSError * _Nullable)error;
+- (void)didFailWithErrorWithError:(NSString * _Nullable)error;
 /// The advertisment provider encountered an error which prevents the ad from playing in the player.
 /// \param data Error Object
 ///
-- (void)didTriggerAdErrorWithError:(NSError * _Nullable)error;
+- (void)didTriggerAdErrorWithError:(NSString * _Nullable)error;
+- (void)didTriggerResizedWithDimensions:(NSString * _Nullable)dimensions fullscreen:(BOOL)fullscreen;
+- (void)didTriggerPhaseChangeWithPhase:(BbnativesharedPhase * _Nullable)phase;
+- (void)didTriggerStateChangeWithState:(BbnativesharedState * _Nullable)state;
+- (void)didRequestOpenUrlWithUrl:(NSString * _Nullable)url;
 @end
 
 

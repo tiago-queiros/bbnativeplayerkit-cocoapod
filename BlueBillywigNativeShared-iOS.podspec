@@ -3,10 +3,10 @@ Pod::Spec.new do |spec|
 
   spec.name         = "BlueBillywigNativeShared-iOS"
   spec.version      = "0.0.14"
-  spec.summary      = "Blue Billywig native player kit"
+  spec.summary      = "Blue Billywig native shared framework"
 
   spec.description  = <<-DESC
-  Blue Billywig native player kit is used to play Blue Billywig mediaclips using the native ios player
+  Blue Billywig native shared framwork is a share code base used in BlueBillywigNativePlayerKit
                    DESC
 
   spec.homepage     = "https://www.bluebillywig.com/"
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   # spec.tvos.deployment_target = "9.0"
   
   spec.ios.deployment_target = '11.0'
-  spec.ios.vendored_frameworks = 'shared.framework'
+  spec.ios.vendored_frameworks = 'bbnativeshared.framework'
   spec.source       = { :git => "https://github.com/bluebillywig/bbnativeplayerkit-cocoapod.git", :tag => "#{spec.version}" }
 
   # spec.frameworks = "SomeFramework", "AnotherFramework"
