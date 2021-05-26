@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "BlueBillywigNativePlayerKit-iOS"
-  spec.version      = "0.0.14"
+  spec.version      = "0.1.0"
   spec.summary      = "Blue Billywig native player kit"
 
   spec.description  = <<-DESC
@@ -21,6 +21,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/bluebillywig/bbnativeplayerkit-cocoapod.git", :tag => "#{spec.version}" }
 
   spec.dependency   'GoogleAds-IMA-iOS-SDK', '~> 3.13.0'
+  spec.dependency   'BlueBillywigNativeShared-iOS', '~> 0.1.0'
 
   spec.framework  = "UIKit", "Foundation", "AVFoundation"
 
