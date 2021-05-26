@@ -15,21 +15,14 @@ Pod::Spec.new do |spec|
   spec.author       = { "Blue Billywig" => "tech@bluebillywig.com" }
   spec.platform     = :ios, "11.0"
 
-  #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
   
   spec.ios.deployment_target = '11.0'
   spec.ios.vendored_frameworks = 'BBNativePlayerKit.framework'
-  # spec.ios.vendored_frameworks = 'BBNativePlayerKit.xcframework'
   spec.source       = { :git => "https://github.com/bluebillywig/bbnativeplayerkit-cocoapod.git", :tag => "#{spec.version}" }
 
   spec.dependency   'GoogleAds-IMA-iOS-SDK', '~> 3.13.0'
 
   spec.framework  = "UIKit", "Foundation", "AVFoundation"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'

@@ -220,19 +220,23 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
 - (void)removeFromSuperview;
 @end
 
-
-@interface BBNativePlayerView (SWIFT_EXTENSION(BBNativePlayerKit)) <AVPlayerViewControllerDelegate>
-@end
-
 @class BbnativesharedEventName;
 
 @interface BBNativePlayerView (SWIFT_EXTENSION(BBNativePlayerKit)) <BbnativesharedEventListenerInterface>
 - (void)onEventEventType:(BbnativesharedEventName * _Nonnull)eventType data:(NSDictionary<NSString *, id> * _Nullable)data;
 @end
 
+@class AVPlayerViewController;
+@protocol UIViewControllerTransitionCoordinator;
+
+@interface BBNativePlayerView (SWIFT_EXTENSION(BBNativePlayerKit)) <AVPlayerViewControllerDelegate>
+- (void)playerViewController:(AVPlayerViewController * _Nonnull)playerViewController willEndFullScreenPresentationWithAnimationCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
+@end
+
 
 @class NSBundle;
 
+/// :nodoc:
 SWIFT_CLASS("_TtC17BBNativePlayerKit28BBNativePlayerViewController")
 @interface BBNativePlayerViewController : UIViewController
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;

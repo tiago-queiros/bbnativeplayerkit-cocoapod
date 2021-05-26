@@ -11,9 +11,11 @@ import UIKit
 import bbnativeshared
 import os
 extension BBNativePlayerView {
-  public func load(contentId: Swift.String, contentIndicator: Swift.String?, initiator: Swift.String?, autoPlay: Swift.Bool?, seekPosition: Swift.Int?)
+  public func load(contentId: Swift.String, contentIndicator: Swift.String?, initiator: Swift.String?, autoPlay: Swift.Bool, seekPosition: Swift.Int?)
   public func play()
   public func pause()
+  public func mute()
+  public func unmute()
   public func seek(positionInSeconds: Swift.Int)
   public func setProgramVolume(volume: Swift.Float)
   public func setFitMode(fitMode: bbnativeshared.FitMode)
@@ -66,6 +68,7 @@ extension BBNativePlayerView : bbnativeshared.EventListenerInterface {
   @objc deinit
 }
 extension BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
+  @objc dynamic public func playerViewController(_ playerViewController: AVKit.AVPlayerViewController, willEndFullScreenPresentationWithAnimationCoordinator coordinator: UIKit.UIViewControllerTransitionCoordinator)
 }
 public class BBNativePlayer {
   public init()
