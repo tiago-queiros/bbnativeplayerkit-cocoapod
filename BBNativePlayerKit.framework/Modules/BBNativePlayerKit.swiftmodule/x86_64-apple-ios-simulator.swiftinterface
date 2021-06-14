@@ -17,6 +17,8 @@ extension BBNativePlayerView {
   public func mute()
   public func unmute()
   public func seek(positionInSeconds: Swift.Int)
+  public func fullscreen()
+  public func retractFullscreen()
   public func setProgramVolume(volume: Swift.Float)
   public func setFitMode(fitMode: bbnativeshared.FitMode)
   public func getClipData() -> bbnativeshared.MediaClip?
@@ -70,8 +72,7 @@ extension BBNativePlayerView : bbnativeshared.EventListenerInterface {
 extension BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
   @objc dynamic public func playerViewController(_ playerViewController: AVKit.AVPlayerViewController, willEndFullScreenPresentationWithAnimationCoordinator coordinator: UIKit.UIViewControllerTransitionCoordinator)
 }
-public class BBNativePlayer {
-  public init()
+@_hasMissingDesignatedInitializers public class BBNativePlayer {
   public static func createPlayerView(frame: CoreGraphics.CGRect, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativePlayerView
   @objc deinit
 }

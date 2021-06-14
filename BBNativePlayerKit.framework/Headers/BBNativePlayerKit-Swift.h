@@ -210,13 +210,17 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+
 @class NSCoder;
 
+/// PlayerView used to play media from the Blue Billywig OVP
 SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
 @interface BBNativePlayerView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+/// :nodoc:
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
+/// :nodoc:
 - (void)removeFromSuperview;
 @end
 
@@ -230,6 +234,7 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
 @protocol UIViewControllerTransitionCoordinator;
 
 @interface BBNativePlayerView (SWIFT_EXTENSION(BBNativePlayerKit)) <AVPlayerViewControllerDelegate>
+/// :nodoc:
 - (void)playerViewController:(AVPlayerViewController * _Nonnull)playerViewController willEndFullScreenPresentationWithAnimationCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 @end
 
