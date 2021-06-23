@@ -22,7 +22,6 @@ extension BBNativePlayerView {
   public func setProgramVolume(volume: Swift.Float)
   public func setFitMode(fitMode: bbnativeshared.FitMode)
   public func getClipData() -> bbnativeshared.MediaClip?
-  public func getCurrentAsset() -> bbnativeshared.MediaAsset?
   public func getCurrentTime() -> Swift.Int?
   public func getDeeplink() -> Swift.String?
   public func getDuration() -> Swift.Double?
@@ -36,8 +35,8 @@ extension BBNativePlayerView {
 }
 @objc public protocol BBNativePlayerViewDelegate {
   @objc optional func didSetupWithJson(url: Swift.String?)
+  @objc optional func didFailWithError(error: Swift.String?)
   @objc optional func didTriggerMediaClipLoaded(data: bbnativeshared.MediaClip)
-  @objc optional func didTriggerMediaClipFailed()
   @objc optional func didTriggerViewStarted()
   @objc optional func didTriggerViewFinished()
   @objc optional func didTriggerProjectLoaded(data: bbnativeshared.Project)
@@ -48,10 +47,11 @@ extension BBNativePlayerView {
   @objc optional func didTriggerAutoPause()
   @objc optional func didTriggerAutoPausePlay()
   @objc optional func didTriggerPlaying()
+  @objc optional func didTriggerEnded()
   @objc optional func didTriggerSeeking()
   @objc optional func didTriggerSeeked(seekOffset: Swift.Double)
   @objc optional func didTriggerStall()
-  @objc optional func didFailWithError(error: Swift.String?)
+  @objc optional func didTriggerMediaClipFailed()
   @objc optional func didTriggerAdError(error: Swift.String?)
   @objc optional func didTriggerResized(dimensions: Swift.String?, fullscreen: Swift.Bool)
   @objc optional func didTriggerPhaseChange(phase: bbnativeshared.Phase?)

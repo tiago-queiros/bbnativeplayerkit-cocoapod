@@ -262,14 +262,14 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// \param data EmbedData Object
 ///
 - (void)didSetupWithJsonWithUrl:(NSString * _Nullable)url;
+/// Player embed failed
+/// \param error String
+///
+- (void)didFailWithErrorWithError:(NSString * _Nullable)error;
 /// MediaClip data was loaded.
 /// \param data MediaClip Object
 ///
 - (void)didTriggerMediaClipLoadedWithData:(BbnativesharedMediaClip * _Nonnull)data;
-/// MediaClip failed.
-/// \param data none
-///
-- (void)didTriggerMediaClipFailed;
 /// The playet view has started
 /// \param data none
 ///
@@ -296,6 +296,8 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 - (void)didTriggerAutoPausePlay;
 /// The player is now playing.
 - (void)didTriggerPlaying;
+/// Playing the media has ended (ads included!)
+- (void)didTriggerEnded;
 /// The player is now seeking.
 - (void)didTriggerSeeking;
 /// The current playback position has changed by the player as a result of a seek action.
@@ -303,9 +305,9 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// The player is trying to fetch new media data, but is unable to retrieve it and continue playing.
 - (void)didTriggerStall;
 /// The player has encountered an error which prevents it from playing the content further.
-/// \param data Error Object
+/// \param none 
 ///
-- (void)didFailWithErrorWithError:(NSString * _Nullable)error;
+- (void)didTriggerMediaClipFailed;
 /// The advertisment provider encountered an error which prevents the ad from playing in the player.
 /// \param data Error Object
 ///

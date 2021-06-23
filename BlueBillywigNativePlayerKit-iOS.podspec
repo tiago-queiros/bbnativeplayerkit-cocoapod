@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "BlueBillywigNativePlayerKit-iOS"
-  spec.version      = "0.1.3"
+  spec.version      = "0.1.4"
   spec.summary      = "Blue Billywig native player kit"
 
   spec.description  = <<-DESC
