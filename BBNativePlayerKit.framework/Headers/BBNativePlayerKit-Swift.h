@@ -224,6 +224,7 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
 - (void)removeFromSuperview;
 @end
 
+
 @class BbnativesharedEventName;
 
 @interface BBNativePlayerView (SWIFT_EXTENSION(BBNativePlayerKit)) <BbnativesharedEventListenerInterface>
@@ -261,7 +262,7 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// Player was setup with json
 /// \param data EmbedData Object
 ///
-- (void)didSetupWithJsonWithUrl:(NSString * _Nullable)url;
+- (void)didSetupWithJsonUrlWithUrl:(NSString * _Nullable)url;
 /// Player embed failed
 /// \param error String
 ///
@@ -312,9 +313,9 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// \param data Error Object
 ///
 - (void)didTriggerAdErrorWithError:(NSString * _Nullable)error;
-- (void)didTriggerResizedWithDimensions:(NSString * _Nullable)dimensions fullscreen:(BOOL)fullscreen;
 - (void)didTriggerPhaseChangeWithPhase:(BbnativesharedPhase * _Nullable)phase;
 - (void)didTriggerStateChangeWithState:(BbnativesharedState * _Nullable)state;
+- (void)didTriggerModeChangeWithMode:(NSString * _Nullable)mode;
 - (void)didRequestOpenUrlWithUrl:(NSString * _Nullable)url;
 @end
 

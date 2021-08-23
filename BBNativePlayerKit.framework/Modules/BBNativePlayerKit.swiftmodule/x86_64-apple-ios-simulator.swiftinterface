@@ -11,30 +11,13 @@ import UIKit
 import bbnativeshared
 import os
 extension BBNativePlayerView {
-  public func load(contentId: Swift.String, contentIndicator: Swift.String?, initiator: Swift.String?, autoPlay: Swift.Bool, seekPosition: Swift.Int?)
-  public func play()
-  public func pause()
-  public func mute()
-  public func unmute()
-  public func seek(positionInSeconds: Swift.Int)
-  public func fullscreen()
-  public func retractFullscreen()
-  public func setProgramVolume(volume: Swift.Float)
-  public func setFitMode(fitMode: bbnativeshared.FitMode)
-  public func getClipData() -> bbnativeshared.MediaClip?
-  public func getCurrentTime() -> Swift.Int?
-  public func getDeeplink() -> Swift.String?
-  public func getDuration() -> Swift.Double?
-  public func getMuted() -> Swift.Bool?
-  public func getPhase() -> bbnativeshared.Phase?
-  public func isPlaying() -> Swift.Bool?
-  public func getPlayoutData() -> bbnativeshared.Playout?
-  public func getProjectData() -> bbnativeshared.Project?
-  public func getThumbnailUrlString(clipId: Swift.String, width: Swift.Int?, height: Swift.Int?) -> Swift.String?
-  public func getVolume() -> Swift.Float?
+  public func callApiMethod(method: bbnativeshared.ApiMethod, args: [Swift.String : Any?]?)
+  public func setApiProperty(property: bbnativeshared.ApiProperty, value: Any?)
+  public func getApiProperty(property: bbnativeshared.ApiProperty) -> Any?
+  public func destroy()
 }
 @objc public protocol BBNativePlayerViewDelegate {
-  @objc optional func didSetupWithJson(url: Swift.String?)
+  @objc optional func didSetupWithJsonUrl(url: Swift.String?)
   @objc optional func didFailWithError(error: Swift.String?)
   @objc optional func didTriggerMediaClipLoaded(data: bbnativeshared.MediaClip)
   @objc optional func didTriggerViewStarted()
@@ -53,9 +36,9 @@ extension BBNativePlayerView {
   @objc optional func didTriggerStall()
   @objc optional func didTriggerMediaClipFailed()
   @objc optional func didTriggerAdError(error: Swift.String?)
-  @objc optional func didTriggerResized(dimensions: Swift.String?, fullscreen: Swift.Bool)
   @objc optional func didTriggerPhaseChange(phase: bbnativeshared.Phase?)
   @objc optional func didTriggerStateChange(state: bbnativeshared.State?)
+  @objc optional func didTriggerModeChange(mode: Swift.String?)
   @objc optional func didRequestOpenUrl(url: Swift.String?)
 }
 extension BBNativePlayerView : bbnativeshared.EventListenerInterface {
@@ -63,17 +46,18 @@ extension BBNativePlayerView : bbnativeshared.EventListenerInterface {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BBNativePlayerView : UIKit.UIView {
   public var delegate: BBNativePlayerKit.BBNativePlayerViewDelegate?
-  public func presentModal(uiViewContoller: UIKit.UIViewController, animated: Swift.Bool)
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @objc override dynamic public func removeFromSuperview()
-  public func __destruct()
   @objc deinit
 }
 extension BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
   @objc dynamic public func playerViewController(_ playerViewController: AVKit.AVPlayerViewController, willEndFullScreenPresentationWithAnimationCoordinator coordinator: UIKit.UIViewControllerTransitionCoordinator)
 }
 @_hasMissingDesignatedInitializers public class BBNativePlayer {
+  public static func createPlayerView(frame: CoreGraphics.CGRect, jsonUrl: Swift.String, options: [Swift.String : Any]?) -> BBNativePlayerKit.BBNativePlayerView
   public static func createPlayerView(frame: CoreGraphics.CGRect, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativePlayerView
+  public static func createModalPlayerView(uiViewContoller: UIKit.UIViewController, jsonUrl: Swift.String, options: [Swift.String : Any]?)
+  public static func createModalPlayerView(uiViewContoller: UIKit.UIViewController, jsonUrl: Swift.String)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BBNativePlayerViewController : UIKit.UIViewController {
