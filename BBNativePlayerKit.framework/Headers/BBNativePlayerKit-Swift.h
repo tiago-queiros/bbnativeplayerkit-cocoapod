@@ -260,63 +260,124 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 @protocol BBNativePlayerViewDelegate
 @optional
 /// Player was setup with json
-/// \param data EmbedData Object
+/// \param playerView UIView
 ///
-- (void)didSetupWithJsonUrlWithUrl:(NSString * _Nullable)url;
+/// \param url String
+///
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didSetupWithJsonUrl:(NSString * _Nullable)url;
 /// Player embed failed
+/// \param playerView UIView
+///
 /// \param error String
 ///
-- (void)didFailWithErrorWithError:(NSString * _Nullable)error;
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didFailWithError:(NSString * _Nullable)error;
 /// MediaClip data was loaded.
+/// \param playerView UIView
+///
 /// \param data MediaClip Object
+/// (for more information on data objects see the SAPI reference guide on the developer documentation website at: https://support.bluebillywig.com/topics/developers/)
 ///
-- (void)didTriggerMediaClipLoadedWithData:(BbnativesharedMediaClip * _Nonnull)data;
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerMediaClipLoaded:(BbnativesharedMediaClip * _Nonnull)data;
 /// The playet view has started
-/// \param data none
+/// \param playerView UIView
 ///
-- (void)didTriggerViewStarted;
+- (void)bbNativePlayerViewWithDidTriggerViewStarted:(BBNativePlayerView * _Nonnull)playerView;
 /// The player view has finished
-/// \param data none
+/// \param playerView UIView
 ///
-- (void)didTriggerViewFinished;
+- (void)bbNativePlayerViewWithDidTriggerViewFinished:(BBNativePlayerView * _Nonnull)playerView;
 /// Project data was loaded.
+/// \param playerView UIView
+///
 /// \param data Project Object
+/// (for more information on data objects see the SAPI reference guide on the developer documentation website at : https://support.bluebillywig.com/topics/developers/)
 ///
-- (void)didTriggerProjectLoadedWithData:(BbnativesharedProject * _Nonnull)data;
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerProjectLoaded:(BbnativesharedProject * _Nonnull)data;
 /// The player is now ready to play.
-- (void)didTriggerCanPlay;
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerCanPlay:(BBNativePlayerView * _Nonnull)playerView;
 /// The duration of the media in the player has changed
-- (void)didTriggerDurationChangeWithDuration:(double)duration;
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerDurationChange:(double)duration;
 /// The player has executed a play command.
-- (void)didTriggerPlay;
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerPlay:(BBNativePlayerView * _Nonnull)playerView;
 /// The player is now paused.
-- (void)didTriggerPause;
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerPause:(BBNativePlayerView * _Nonnull)playerView;
 /// The player was paused externally
-- (void)didTriggerAutoPause;
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAutoPause:(BBNativePlayerView * _Nonnull)playerView;
 /// The externally paused player is now playing.
-- (void)didTriggerAutoPausePlay;
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAutoPausePlay:(BBNativePlayerView * _Nonnull)playerView;
 /// The player is now playing.
-- (void)didTriggerPlaying;
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerPlaying:(BBNativePlayerView * _Nonnull)playerView;
 /// Playing the media has ended (ads included!)
-- (void)didTriggerEnded;
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerEnded:(BBNativePlayerView * _Nonnull)playerView;
 /// The player is now seeking.
-- (void)didTriggerSeeking;
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerSeeking:(BBNativePlayerView * _Nonnull)playerView;
 /// The current playback position has changed by the player as a result of a seek action.
-- (void)didTriggerSeekedWithSeekOffset:(double)seekOffset;
+/// \param playerView UIView
+///
+/// \param seekOffset Double
+///
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerSeeked:(double)seekOffset;
 /// The player is trying to fetch new media data, but is unable to retrieve it and continue playing.
-- (void)didTriggerStall;
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerStall:(BBNativePlayerView * _Nonnull)playerView;
 /// The player has encountered an error which prevents it from playing the content further.
-/// \param none 
+/// \param playerView UIView
 ///
-- (void)didTriggerMediaClipFailed;
+- (void)bbNativePlayerViewWithDidTriggerMediaClipFailed:(BBNativePlayerView * _Nonnull)playerView;
 /// The advertisment provider encountered an error which prevents the ad from playing in the player.
-/// \param data Error Object
+/// \param playerView UIView
 ///
-- (void)didTriggerAdErrorWithError:(NSString * _Nullable)error;
-- (void)didTriggerPhaseChangeWithPhase:(BbnativesharedPhase * _Nullable)phase;
-- (void)didTriggerStateChangeWithState:(BbnativesharedState * _Nullable)state;
-- (void)didTriggerModeChangeWithMode:(NSString * _Nullable)mode;
-- (void)didRequestOpenUrlWithUrl:(NSString * _Nullable)url;
+/// \param error String
+///
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerAdError:(NSString * _Nullable)error;
+/// The player changed phase
+/// \param playerView UIView
+///
+/// \param phase Phase Enum
+/// (for more information on phases, states and modes, see the developer documentation website at https://support.bluebillywig.com/player-api/events-modes-and-phases/)
+///
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerPhaseChange:(BbnativesharedPhase * _Nullable)phase;
+/// The player changed state
+/// \param playerView UIView
+///
+/// \param state State Enum
+/// (for more information on phases, states and modes, see the developer documentation website at https://support.bluebillywig.com/player-api/events-modes-and-phases/)
+///
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerStateChange:(BbnativesharedState * _Nullable)state;
+/// The player changed mode
+/// \param playerView UIView
+///
+/// \param mode String
+/// (for more information on phases, states and modes, see the developer documentation website at https://support.bluebillywig.com/player-api/events-modes-and-phases/)
+///
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerModeChange:(NSString * _Nullable)mode;
+/// The player is requesting a collapse, handle code appropriately
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidRequestCollapse:(BBNativePlayerView * _Nonnull)playerView;
+/// The player is requesting an expand, handle code appropriately
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidRequestExpand:(BBNativePlayerView * _Nonnull)playerView;
 @end
 
 
