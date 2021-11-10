@@ -343,12 +343,6 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// \param playerView UIView
 ///
 - (void)bbNativePlayerViewWithDidTriggerMediaClipFailed:(BBNativePlayerView * _Nonnull)playerView;
-/// The advertisment provider encountered an error which prevents the ad from playing in the player.
-/// \param playerView UIView
-///
-/// \param error String
-///
-- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerAdError:(NSString * _Nullable)error;
 /// The player changed phase
 /// \param playerView UIView
 ///
@@ -378,6 +372,44 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// \param playerView UIView
 ///
 - (void)bbNativePlayerViewWithDidRequestExpand:(BBNativePlayerView * _Nonnull)playerView;
+/// An ad was loaded
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAdLoaded:(BBNativePlayerView * _Nonnull)playerView;
+/// An ad was not found
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAdNotFound:(BBNativePlayerView * _Nonnull)playerView;
+/// The advertisment provider encountered an error which prevents the ad from playing in the player.
+/// \param playerView UIView
+///
+/// \param error String
+///
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerAdError:(NSString * _Nullable)error;
+/// An ad was started
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAdStarted:(BBNativePlayerView * _Nonnull)playerView;
+/// An ad reached the first quartile
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAdQuartile1:(BBNativePlayerView * _Nonnull)playerView;
+/// An ad reached the second quartile
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAdQuartile2:(BBNativePlayerView * _Nonnull)playerView;
+/// An ad reached the third quartile
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAdQuartile3:(BBNativePlayerView * _Nonnull)playerView;
+/// An ad finished
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAdFinished:(BBNativePlayerView * _Nonnull)playerView;
+/// An ads have finished
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAllAdsCompleted:(BBNativePlayerView * _Nonnull)playerView;
 @end
 
 

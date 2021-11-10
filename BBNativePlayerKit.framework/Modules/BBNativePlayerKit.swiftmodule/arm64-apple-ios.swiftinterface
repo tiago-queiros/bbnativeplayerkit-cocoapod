@@ -35,12 +35,20 @@ extension BBNativePlayerView {
   @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerSeeked seekOffset: Swift.Double)
   @objc optional func bbNativePlayerView(didTriggerStall playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerMediaClipFailed playerView: BBNativePlayerKit.BBNativePlayerView)
-  @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerAdError error: Swift.String?)
   @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerPhaseChange phase: bbnativeshared.Phase?)
   @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerStateChange state: bbnativeshared.State?)
   @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerModeChange mode: Swift.String?)
   @objc optional func bbNativePlayerView(didRequestCollapse playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didRequestExpand playerView: BBNativePlayerKit.BBNativePlayerView)
+  @objc optional func bbNativePlayerView(didTriggerAdLoaded playerView: BBNativePlayerKit.BBNativePlayerView)
+  @objc optional func bbNativePlayerView(didTriggerAdNotFound playerView: BBNativePlayerKit.BBNativePlayerView)
+  @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerAdError error: Swift.String?)
+  @objc optional func bbNativePlayerView(didTriggerAdStarted playerView: BBNativePlayerKit.BBNativePlayerView)
+  @objc optional func bbNativePlayerView(didTriggerAdQuartile1 playerView: BBNativePlayerKit.BBNativePlayerView)
+  @objc optional func bbNativePlayerView(didTriggerAdQuartile2 playerView: BBNativePlayerKit.BBNativePlayerView)
+  @objc optional func bbNativePlayerView(didTriggerAdQuartile3 playerView: BBNativePlayerKit.BBNativePlayerView)
+  @objc optional func bbNativePlayerView(didTriggerAdFinished playerView: BBNativePlayerKit.BBNativePlayerView)
+  @objc optional func bbNativePlayerView(didTriggerAllAdsCompleted playerView: BBNativePlayerKit.BBNativePlayerView)
 }
 extension BBNativePlayerView : bbnativeshared.EventListenerInterface {
   @objc dynamic public func onEvent(eventType: bbnativeshared.EventName, data: [Swift.String : Any]?)
@@ -106,8 +114,8 @@ extension BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
 @_hasMissingDesignatedInitializers public class BBNativePlayer {
   public static func createPlayerView(frame: CoreGraphics.CGRect, jsonUrl: Swift.String, options: [Swift.String : Any]?) -> BBNativePlayerKit.BBNativePlayerView
   public static func createPlayerView(frame: CoreGraphics.CGRect, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativePlayerView
-  public static func createModalPlayerView(uiViewContoller: UIKit.UIViewController, jsonUrl: Swift.String, options: [Swift.String : Any]?)
-  public static func createModalPlayerView(uiViewContoller: UIKit.UIViewController, jsonUrl: Swift.String)
+  public static func createModalPlayerView(uiViewContoller: UIKit.UIViewController, jsonUrl: Swift.String, options: [Swift.String : Any]?) -> BBNativePlayerKit.BBNativePlayerView
+  public static func createModalPlayerView(uiViewContoller: UIKit.UIViewController, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativePlayerView
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BBNativePlayerViewController : UIKit.UIViewController {
