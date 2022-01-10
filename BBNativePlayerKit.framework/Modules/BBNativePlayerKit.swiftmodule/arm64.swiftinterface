@@ -56,6 +56,7 @@ extension BBNativePlayerView : bbnativeshared.EventListenerInterface {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BBNativePlayerView : UIKit.UIView {
   weak public var delegate: BBNativePlayerKit.BBNativePlayerViewDelegate?
   public var player: BBNativePlayerKit.BBNativePlayerAPI
+  public var modalPlayerActive: Swift.Bool
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @objc override dynamic public func removeFromSuperview()
   @objc deinit
@@ -64,6 +65,8 @@ extension BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
   @objc dynamic public func playerViewController(_ playerViewController: AVKit.AVPlayerViewController, willEndFullScreenPresentationWithAnimationCoordinator coordinator: UIKit.UIViewControllerTransitionCoordinator)
 }
 @_hasMissingDesignatedInitializers public class BBNativePlayerAPI {
+  public func closeModalPlayer()
+  public func getModalPlayerView() -> UIKit.UIView?
   public func loadWithClipId(clipId: Swift.String, initiator: Swift.String? = "external", autoPlay: Swift.Bool? = true, seekTo: Foundation.NSNumber? = nil)
   public func loadWithClipListId(clipListId: Swift.String, initiator: Swift.String? = "external", autoPlay: Swift.Bool? = true, seekTo: Foundation.NSNumber? = nil)
   public func loadWithProjectId(projectId: Swift.String, initiator: Swift.String? = "external", autoPlay: Swift.Bool? = true, seekTo: Foundation.NSNumber? = nil)
