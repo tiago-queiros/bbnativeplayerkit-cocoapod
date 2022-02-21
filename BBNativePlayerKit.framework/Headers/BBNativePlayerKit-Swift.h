@@ -191,6 +191,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import AVKit;
 @import CoreGraphics;
 @import Foundation;
+@import GoogleCast;
 @import UIKit;
 @import bbnativeshared;
 #endif
@@ -247,6 +248,8 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit28BBNativePlayerViewController")
 @interface BBNativePlayerViewController : UIViewController
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
 @end
@@ -410,6 +413,43 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// \param playerView UIView
 ///
 - (void)bbNativePlayerViewWithDidTriggerAllAdsCompleted:(BBNativePlayerView * _Nonnull)playerView;
+@end
+
+@class GCKSessionManager;
+@class GCKSession;
+@class GCKRequest;
+@class GCKUIMiniMediaControlsViewController;
+@class GCKRemoteMediaClient;
+@class GCKMediaStatus;
+
+/// :nodoc:
+SWIFT_CLASS_NAMED("ChromeCastViewController")
+@interface MediaViewController : UIViewController <GCKLoggerDelegate, GCKRemoteMediaClientListener, GCKRequestDelegate, GCKSessionManagerListener, GCKUIMiniMediaControlsViewControllerDelegate>
+- (void)viewDidLoad;
+- (void)sessionManager:(GCKSessionManager * _Nonnull)_ didStartSession:(GCKSession * _Nonnull)session;
+- (void)sessionManager:(GCKSessionManager * _Nonnull)_ didResumeSession:(GCKSession * _Nonnull)session;
+- (void)sessionManager:(GCKSessionManager * _Nonnull)_ didEndSession:(GCKSession * _Nonnull)_ withError:(NSError * _Nullable)error;
+- (void)logMessage:(NSString * _Nonnull)message atLevel:(GCKLoggerLevel)level fromFunction:(NSString * _Nonnull)function location:(NSString * _Nonnull)location;
+- (void)requestDidComplete:(GCKRequest * _Nonnull)request;
+- (void)miniMediaControlsViewController:(GCKUIMiniMediaControlsViewController * _Nonnull)miniMediaControlsViewController shouldAppear:(BOOL)shouldAppear;
+- (void)remoteMediaClient:(GCKRemoteMediaClient * _Nonnull)_ didUpdateMediaStatus:(GCKMediaStatus * _Nullable)mediaStatus;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_PROTOCOL("_TtP17BBNativePlayerKit32ChromeCastViewControllerDelegate_")
+@protocol ChromeCastViewControllerDelegate
+- (void)chromeCastViewControllerWithChromeCastViewController:(MediaViewController * _Nonnull)chromeCastViewController sessionStarted:(GCKSession * _Nonnull)session;
+- (void)chromeCastViewControllerWithChromeCastViewController:(MediaViewController * _Nonnull)chromeCastViewController sessionResumed:(GCKSession * _Nonnull)session;
+- (void)chromeCastViewControllerWithChromeCastViewController:(MediaViewController * _Nonnull)chromeCastViewController sessionEnded:(BOOL)resumeInAVPlayer withError:(NSError * _Nullable)withError;
+- (void)chromeCastViewControllerWithChromeCastViewController:(MediaViewController * _Nonnull)chromeCastViewController sessionFailedToStart:(NSError * _Nullable)withError;
+- (void)chromeCastViewControllerWithChromeCastViewController:(MediaViewController * _Nonnull)chromeCastViewController sessionFailedToResume:(NSError * _Nullable)withError;
+- (void)chromeCastViewControllerWithMediaStatusFinished:(MediaViewController * _Nonnull)chromeCastViewController;
+- (void)chromeCastViewControllerWithMediaStatusError:(MediaViewController * _Nonnull)chromeCastViewController;
+- (void)chromeCastViewControllerWithMediaStatusPlaying:(MediaViewController * _Nonnull)chromeCastViewController;
+- (void)chromeCastViewControllerWithMediaStatusPaused:(MediaViewController * _Nonnull)chromeCastViewController;
+- (void)chromeCastViewControllerWithChromeCastViewController:(MediaViewController * _Nonnull)chromeCastViewController mediaProgress:(float)position;
 @end
 
 

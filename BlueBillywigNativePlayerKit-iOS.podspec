@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "BlueBillywigNativePlayerKit-iOS"
-  spec.version      = "7.73"
+  spec.version      = "7.76"
   spec.summary      = "Blue Billywig native player kit"
 
   spec.description  = <<-DESC
@@ -13,15 +13,16 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://www.bluebillywig.com/"
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { "Blue Billywig" => "tech@bluebillywig.com" }
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "12.0"
 
   
-  spec.ios.deployment_target = '11.0'
+  spec.ios.deployment_target = '12.0'
   spec.ios.vendored_frameworks = 'BBNativePlayerKit.framework'
   spec.source       = { :git => "https://github.com/bluebillywig/bbnativeplayerkit-cocoapod.git", :tag => "#{spec.version}" }
 
   spec.dependency   'GoogleAds-IMA-iOS-SDK', '~> 3.13.0'
-  spec.dependency   'BlueBillywigNativeShared-iOS', '7.73'
+  spec.dependency   'google-cast-sdk-dynamic-ios-bb'
+  spec.dependency   'BlueBillywigNativeShared-iOS', '7.76'
 
   spec.framework  = "UIKit", "Foundation", "AVFoundation"
 

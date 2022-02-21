@@ -1,15 +1,26 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BBNativePlayerKit
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BBNativePlayerKit
 import AVFoundation
 import AVKit
 @_exported import BBNativePlayerKit
 import Foundation
+import GoogleCast
 import GoogleInteractiveMediaAds
 import Swift
 import UIKit
 import bbnativeshared
 import os
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BBNativePlayerViewController : UIKit.UIViewController {
+  public var inViewController: bbnativeshared.InViewController?
+  public var chromeCastViewController: BBNativePlayerKit.ChromeCastViewController?
+  @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  public func __destruct()
+  @objc deinit
+}
 extension BBNativePlayerView {
   public func callApiMethod(method: bbnativeshared.ApiMethod, args: [Swift.String : Any?]?)
   public func setApiProperty(property: bbnativeshared.ApiProperty, value: Any?)
@@ -56,7 +67,6 @@ extension BBNativePlayerView : bbnativeshared.EventListenerInterface {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BBNativePlayerView : UIKit.UIView {
   weak public var delegate: BBNativePlayerKit.BBNativePlayerViewDelegate?
   public var player: BBNativePlayerKit.BBNativePlayerAPI
-  public var modalPlayerActive: Swift.Bool
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @objc override dynamic public func removeFromSuperview()
   @objc deinit
@@ -112,20 +122,19 @@ extension BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
   public var duration: Swift.Double? {
     get
   }
+  public var createChromeCastButton: GoogleCast.GCKUICastButton? {
+    get
+  }
+  public var getChromeCastMiniControlsView: UIKit.UIView? {
+    get
+  }
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class BBNativePlayer {
-  public static func createPlayerView(frame: CoreGraphics.CGRect, jsonUrl: Swift.String, options: [Swift.String : Any]?) -> BBNativePlayerKit.BBNativePlayerView
-  public static func createPlayerView(frame: CoreGraphics.CGRect, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativePlayerView
+  public static func createPlayerView(uiViewController: UIKit.UIViewController, frame: CoreGraphics.CGRect, jsonUrl: Swift.String, options: [Swift.String : Any]?) -> BBNativePlayerKit.BBNativePlayerView
+  public static func createPlayerView(uiViewController: UIKit.UIViewController, frame: CoreGraphics.CGRect, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativePlayerView
   public static func createModalPlayerView(uiViewContoller: UIKit.UIViewController, jsonUrl: Swift.String, options: [Swift.String : Any]?) -> BBNativePlayerKit.BBNativePlayerView
   public static func createModalPlayerView(uiViewContoller: UIKit.UIViewController, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativePlayerView
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BBNativePlayerViewController : UIKit.UIViewController {
-  public var inViewController: bbnativeshared.InViewController?
-  @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
-  @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
-  public func __destruct()
   @objc deinit
 }
 extension UIColor {
@@ -133,4 +142,49 @@ extension UIColor {
 }
 extension UIView {
   public func isVisible() -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @objc(MediaViewController) public class ChromeCastViewController : UIKit.UIViewController, GoogleCast.GCKSessionManagerListener, GoogleCast.GCKRemoteMediaClientListener, GoogleCast.GCKLoggerDelegate, GoogleCast.GCKRequestDelegate, GoogleCast.GCKUIMiniMediaControlsViewControllerDelegate {
+  weak public var delegate: BBNativePlayerKit.ChromeCastViewControllerDelegate?
+  public var sessionManager: GoogleCast.GCKSessionManager!
+  public var castButton: GoogleCast.GCKUICastButton!
+  public var miniMediaControlsContainerView: UIKit.UIView!
+  public var miniMediaControlsUsedExternaly: Swift.Bool
+  @objc override dynamic public func viewDidLoad()
+  public func enable(showMiniControls: Swift.Bool)
+  public func disable()
+  public func pauseCastSession()
+  public func resumeCastSession()
+  public func checkRunningSession()
+  public func setIgnoreCastUI(to: Swift.Bool)
+  public func hasActivePlayingSession() -> Swift.Bool
+  public func __destruct()
+  public func play()
+  public func pause()
+  public func seekTo(time: Swift.Double)
+  public func mute()
+  public func unMute()
+  public func setMessageLabel(deviceName: Swift.String?, isThisPlayer: Swift.Bool)
+  @objc public func sessionManager(_: GoogleCast.GCKSessionManager, didStart session: GoogleCast.GCKSession)
+  @objc public func sessionManager(_: GoogleCast.GCKSessionManager, didResumeSession session: GoogleCast.GCKSession)
+  @objc public func sessionManager(_: GoogleCast.GCKSessionManager, didEnd _: GoogleCast.GCKSession, withError error: Swift.Error?)
+  @objc public func logMessage(_ message: Swift.String, at level: GoogleCast.GCKLoggerLevel, fromFunction function: Swift.String, location: Swift.String)
+  @objc public func requestDidComplete(_ request: GoogleCast.GCKRequest)
+  @objc public func miniMediaControlsViewController(_ miniMediaControlsViewController: GoogleCast.GCKUIMiniMediaControlsViewController, shouldAppear: Swift.Bool)
+  @objc public func remoteMediaClient(_: GoogleCast.GCKRemoteMediaClient, didUpdate mediaStatus: GoogleCast.GCKMediaStatus?)
+  public func playerIsModal()
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public protocol ChromeCastViewControllerDelegate {
+  @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionStarted session: GoogleCast.GCKSession)
+  @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionResumed session: GoogleCast.GCKSession)
+  @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionEnded resumeInAVPlayer: Swift.Bool, withError: Swift.Error?)
+  @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionFailedToStart withError: Swift.Error?)
+  @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionFailedToResume withError: Swift.Error?)
+  @objc func chromeCastViewController(mediaStatusFinished chromeCastViewController: BBNativePlayerKit.ChromeCastViewController)
+  @objc func chromeCastViewController(mediaStatusError chromeCastViewController: BBNativePlayerKit.ChromeCastViewController)
+  @objc func chromeCastViewController(mediaStatusPlaying chromeCastViewController: BBNativePlayerKit.ChromeCastViewController)
+  @objc func chromeCastViewController(mediaStatusPaused chromeCastViewController: BBNativePlayerKit.ChromeCastViewController)
+  @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, mediaProgress position: Swift.Float)
 }
