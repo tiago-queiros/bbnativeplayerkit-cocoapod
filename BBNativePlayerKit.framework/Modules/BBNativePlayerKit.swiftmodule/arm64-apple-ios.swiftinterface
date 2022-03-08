@@ -60,6 +60,7 @@ extension BBNativePlayerView {
   @objc optional func bbNativePlayerView(didTriggerAdQuartile3 playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAdFinished playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAllAdsCompleted playerView: BBNativePlayerKit.BBNativePlayerView)
+  @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerResize width: Swift.Int, height: Swift.Int)
 }
 extension BBNativePlayerView : bbnativeshared.EventListenerInterface {
   @objc dynamic public func onEvent(eventType: bbnativeshared.EventName, data: [Swift.String : Any]?)
@@ -128,6 +129,12 @@ extension BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
   public var getChromeCastMiniControlsView: UIKit.UIView? {
     get
   }
+  public var adMediaWidth: Swift.Int? {
+    get
+  }
+  public var adMediaHeight: Swift.Int? {
+    get
+  }
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class BBNativePlayer {
@@ -135,6 +142,7 @@ extension BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
   public static func createPlayerView(uiViewController: UIKit.UIViewController, frame: CoreGraphics.CGRect, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativePlayerView
   public static func createModalPlayerView(uiViewContoller: UIKit.UIViewController, jsonUrl: Swift.String, options: [Swift.String : Any]?) -> BBNativePlayerKit.BBNativePlayerView
   public static func createModalPlayerView(uiViewContoller: UIKit.UIViewController, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativePlayerView
+  public static func createJsonEmbedUrl(baseUrl: Swift.String, appIndicator: Swift.String, appId: Swift.String, contentIndicator: Swift.String? = nil, contentId: Swift.String? = nil) -> Swift.String
   @objc deinit
 }
 extension UIColor {

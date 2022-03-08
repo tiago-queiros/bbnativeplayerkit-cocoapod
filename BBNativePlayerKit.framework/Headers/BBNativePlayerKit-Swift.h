@@ -413,6 +413,14 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// \param playerView UIView
 ///
 - (void)bbNativePlayerViewWithDidTriggerAllAdsCompleted:(BBNativePlayerView * _Nonnull)playerView;
+/// The size of the player has changed
+/// \param playerView UIView
+///
+/// \param width Int
+///
+/// \param height Int
+///
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerResize:(NSInteger)width height:(NSInteger)height;
 @end
 
 @class GCKSessionManager;
