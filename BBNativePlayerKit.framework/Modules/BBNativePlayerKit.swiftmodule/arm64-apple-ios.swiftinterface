@@ -61,6 +61,8 @@ extension BBNativePlayerView {
   @objc optional func bbNativePlayerView(didTriggerAdFinished playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAllAdsCompleted playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerResize width: Swift.Int, height: Swift.Int)
+  @objc optional func bbNativePlayerView(didTriggerAdSwipeLeft playerView: BBNativePlayerKit.BBNativePlayerView)
+  @objc optional func bbNativePlayerView(didTriggerAdSwipeRight playerView: BBNativePlayerKit.BBNativePlayerView)
 }
 extension BBNativePlayerView : bbnativeshared.EventListenerInterface {
   @objc dynamic public func onEvent(eventType: bbnativeshared.EventName, data: [Swift.String : Any]?)

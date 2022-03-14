@@ -241,6 +241,7 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
 @end
 
 
+
 @class NSBundle;
 
 /// :nodoc:
@@ -421,6 +422,14 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// \param height Int
 ///
 - (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerResize:(NSInteger)width height:(NSInteger)height;
+/// User swiped left on ad
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAdSwipeLeft:(BBNativePlayerView * _Nonnull)playerView;
+/// User swiped right on ad
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAdSwipeRight:(BBNativePlayerView * _Nonnull)playerView;
 @end
 
 @class GCKSessionManager;
