@@ -148,6 +148,9 @@ extension BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
   @objc deinit
 }
 extension UIColor {
+  public func rgb() -> Swift.Int?
+}
+extension UIColor {
   convenience public init?(hex: Swift.String)
 }
 extension UIView {
