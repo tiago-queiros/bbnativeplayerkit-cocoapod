@@ -139,6 +139,12 @@ extension BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
   }
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class ChromeCastHelper {
+  public static let shared: BBNativePlayerKit.ChromeCastHelper
+  public var initialized: Swift.Bool
+  public func createChromeCastButton(frame: CoreGraphics.CGRect) -> GoogleCast.GCKUICastButton?
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class BBNativePlayer {
   public static func createPlayerView(uiViewController: UIKit.UIViewController, frame: CoreGraphics.CGRect, jsonUrl: Swift.String, options: [Swift.String : Any]?) -> BBNativePlayerKit.BBNativePlayerView
   public static func createPlayerView(uiViewController: UIKit.UIViewController, frame: CoreGraphics.CGRect, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativePlayerView
@@ -200,4 +206,5 @@ extension UIView {
   @objc func chromeCastViewController(mediaStatusPlaying chromeCastViewController: BBNativePlayerKit.ChromeCastViewController)
   @objc func chromeCastViewController(mediaStatusPaused chromeCastViewController: BBNativePlayerKit.ChromeCastViewController)
   @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, mediaProgress position: Swift.Float)
+  @objc func chromeCastViewController(didRequestDirectCast chromeCastViewController: BBNativePlayerKit.ChromeCastViewController)
 }

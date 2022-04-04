@@ -467,6 +467,7 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit32ChromeCastViewControllerDelegate_")
 - (void)chromeCastViewControllerWithMediaStatusPlaying:(MediaViewController * _Nonnull)chromeCastViewController;
 - (void)chromeCastViewControllerWithMediaStatusPaused:(MediaViewController * _Nonnull)chromeCastViewController;
 - (void)chromeCastViewControllerWithChromeCastViewController:(MediaViewController * _Nonnull)chromeCastViewController mediaProgress:(float)position;
+- (void)chromeCastViewControllerWithDidRequestDirectCast:(MediaViewController * _Nonnull)chromeCastViewController;
 @end
 
 
