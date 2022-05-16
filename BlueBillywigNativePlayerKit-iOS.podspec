@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.dependency   'GoogleAds-IMA-iOS-SDK', '3.16.3'
   spec.dependency   'google-cast-sdk-dynamic-ios-bb'
-  spec.dependency   'BlueBillywigNativeShared-iOS', '7.79'
+  spec.dependency   'BlueBillywigNativeShared-iOS', '7.82'
 
   spec.framework  = "UIKit", "Foundation", "AVFoundation"
 
