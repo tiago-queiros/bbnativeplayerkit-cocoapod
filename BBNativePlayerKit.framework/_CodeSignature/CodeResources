@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		fgptsufVys3sX+bk+dQ3v0uyexY=
+		hG2Qjm3lNTHBDsPQ3IzfJZZ/G/E=
 		</data>
 		<key>BBNativePlayerKit_profile</key>
 		<data>
-		/y3TJ7nC8+HZ58HCRG9iqAGdL8s=
+		z98xUSgYC1vciDIeaeT5FGw6HrY=
 		</data>
 		<key>Headers/BBNativePlayerKit-Swift.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/BBNativePlayerKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		TR8bbKwiVVpYj2pMre9UlkxMUyI=
+		6y30IApij7DYNtI6+WiPas7Pq/Y=
 		</data>
 		<key>Modules/BBNativePlayerKit.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
@@ -67,14 +67,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rCpuS2CCY9pTww0kW9e9XhlEGXYYNl0Vt4EkLy0Jbt0=
+			aqgXaUwfpsMpFjWJAiTLI7MXc1ndVKBL9ZyoQD6KekQ=
 			</data>
 		</dict>
 		<key>BBNativePlayerKit_profile</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9hRWx2PXTJOJE3HCui6BibWL33kMHDIX1zQl3TzJs2E=
+			tPyjx9VZ6KxNUpj3uc49fHhi3qJzBQWoR9bU5UmlDbo=
 			</data>
 		</dict>
 		<key>Headers/BBNativePlayerKit-Swift.h</key>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3V/qEd7LiFzq4x76suR2w6vHdDi9XNTkzMKCbOCDAGQ=
+			Z07qn4KNMcms6+JoGcQSVifFQ+TQHaQyVH1g/grryMg=
 			</data>
 		</dict>
 		<key>Modules/BBNativePlayerKit.swiftmodule/Project/arm64.swiftsourceinfo</key>
