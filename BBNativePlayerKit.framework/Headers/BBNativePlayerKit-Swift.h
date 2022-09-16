@@ -220,7 +220,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 @class NSCoder;
-@class NSString;
 
 /// PlayerView used to play media from the Blue Billywig OVP
 SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
@@ -228,13 +227,12 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 /// :nodoc:
-- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
-/// :nodoc:
 - (void)removeFromSuperview;
 @end
 
 
 @class BbnativesharedEventName;
+@class NSString;
 
 @interface BBNativePlayerView (SWIFT_EXTENSION(BBNativePlayerKit)) <BbnativesharedEventListenerInterface>
 - (void)onEventEventType:(BbnativesharedEventName * _Nonnull)eventType data:(NSDictionary<NSString *, id> * _Nullable)data;
@@ -259,8 +257,8 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit28BBNativePlayerViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewWillAppear:(BOOL)animated;
-- (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
 @end
 
