@@ -377,6 +377,16 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// (for more information on phases, states and modes, see the developer documentation website at https://support.bluebillywig.com/player-api/events-modes-and-phases/)
 ///
 - (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerModeChange:(NSString * _Nullable)mode;
+/// The player provided custom statistics
+/// \param playerView UIView
+///
+/// \param ident String
+///
+/// \param ev String
+///
+/// \param aux [String : String]
+///
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerCustomStatistics:(NSString * _Nonnull)ident ev:(NSString * _Nonnull)ev aux:(NSDictionary<NSString *, NSString *> * _Nonnull)aux;
 /// The player is requesting a collapse, handle code appropriately
 /// \param playerView UIView
 ///

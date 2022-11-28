@@ -50,6 +50,7 @@ extension BBNativePlayerKit.BBNativePlayerView {
   @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerPhaseChange phase: bbnativeshared.Phase?)
   @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerStateChange state: bbnativeshared.State?)
   @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerModeChange mode: Swift.String?)
+  @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerCustomStatistics ident: Swift.String, ev: Swift.String, aux: [Swift.String : Swift.String])
   @objc optional func bbNativePlayerView(didRequestCollapse playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didRequestExpand playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAdLoaded playerView: BBNativePlayerKit.BBNativePlayerView)
@@ -94,6 +95,8 @@ extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVPlayerViewControllerDel
   public func autoPlayNextCancel()
   public func collapse()
   public func expand()
+  public func enterFullScreen()
+  public func exitFullScreen()
   public var phase: bbnativeshared.Phase? {
     get
   }
