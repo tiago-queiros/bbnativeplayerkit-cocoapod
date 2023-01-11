@@ -314,6 +314,10 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// \param playerView UIView
 ///
 - (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerDurationChange:(double)duration;
+/// The volume or muted state has changed
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerVolumeChange:(double)volume;
 /// The player has executed a play command.
 /// \param playerView UIView
 ///

@@ -8,6 +8,7 @@ import Foundation
 import GoogleCast
 import GoogleInteractiveMediaAds
 import Swift
+import UIKit.UIDevice
 import UIKit
 import _Concurrency
 import bbnativeshared
@@ -37,6 +38,7 @@ extension BBNativePlayerKit.BBNativePlayerView {
   @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerProjectLoaded data: bbnativeshared.Project)
   @objc optional func bbNativePlayerView(didTriggerCanPlay playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerDurationChange duration: Swift.Double)
+  @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerVolumeChange volume: Swift.Double)
   @objc optional func bbNativePlayerView(didTriggerPlay playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerPause playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAutoPause playerView: BBNativePlayerKit.BBNativePlayerView)
