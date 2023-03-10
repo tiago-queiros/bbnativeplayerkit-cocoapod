@@ -381,6 +381,18 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// (for more information on phases, states and modes, see the developer documentation website at https://support.bluebillywig.com/player-api/events-modes-and-phases/)
 ///
 - (void)bbNativePlayerViewWithPlayerView:(BBNativePlayerView * _Nonnull)playerView didTriggerModeChange:(NSString * _Nullable)mode;
+/// The player went fullscreen.
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerFullscreen:(BBNativePlayerView * _Nonnull)playerView;
+/// The player left fullscreen.
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerRetractFullscreen:(BBNativePlayerView * _Nonnull)playerView;
+/// The player left fullscreen.
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerRectractFullscreen:(BBNativePlayerView * _Nonnull)playerView;
 /// The player provided custom statistics
 /// \param playerView UIView
 ///
