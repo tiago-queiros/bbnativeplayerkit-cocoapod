@@ -389,10 +389,6 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// \param playerView UIView
 ///
 - (void)bbNativePlayerViewWithDidTriggerRetractFullscreen:(BBNativePlayerView * _Nonnull)playerView;
-/// The player left fullscreen.
-/// \param playerView UIView
-///
-- (void)bbNativePlayerViewWithDidTriggerRectractFullscreen:(BBNativePlayerView * _Nonnull)playerView;
 /// The player provided custom statistics
 /// \param playerView UIView
 ///

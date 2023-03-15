@@ -56,7 +56,6 @@ extension BBNativePlayerKit.BBNativePlayerView {
   @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerModeChange mode: Swift.String?)
   @objc optional func bbNativePlayerView(didTriggerFullscreen playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerRetractFullscreen playerView: BBNativePlayerKit.BBNativePlayerView)
-  @objc optional func bbNativePlayerView(didTriggerRectractFullscreen playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(playerView: BBNativePlayerKit.BBNativePlayerView, didTriggerCustomStatistics ident: Swift.String, ev: Swift.String, aux: [Swift.String : Swift.String])
   @objc optional func bbNativePlayerView(didRequestCollapse playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didRequestExpand playerView: BBNativePlayerKit.BBNativePlayerView)
@@ -147,6 +146,9 @@ extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVPlayerViewControllerDel
     get
   }
   public var adMediaHeight: Swift.Int? {
+    get
+  }
+  public var fullscreen: Swift.Bool? {
     get
   }
   @objc deinit

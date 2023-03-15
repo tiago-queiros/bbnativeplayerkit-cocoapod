@@ -1445,39 +1445,6 @@
           {
             "kind": "Function",
             "name": "bbNativePlayerView",
-            "printedName": "bbNativePlayerView(didTriggerRectractFullscreen:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BBNativePlayerView",
-                "printedName": "BBNativePlayerKit.BBNativePlayerView",
-                "usr": "c:@M@BBNativePlayerKit@objc(cs)BBNativePlayerView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerRectractFullscreen:",
-            "mangledName": "$s17BBNativePlayerKit0aB12ViewDelegateP08bbNativebD028didTriggerRectractFullscreenyAA0abD0C_tF",
-            "moduleName": "BBNativePlayerKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : BBNativePlayerKit.BBNativePlayerViewDelegate>",
-            "sugared_genericSig": "<Self where Self : BBNativePlayerKit.BBNativePlayerViewDelegate>",
-            "protocolReq": true,
-            "objc_name": "bbNativePlayerViewWithDidTriggerRectractFullscreen:",
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "bbNativePlayerView",
             "printedName": "bbNativePlayerView(playerView:didTriggerCustomStatistics:ev:aux:)",
             "children": [
               {
@@ -4623,6 +4590,63 @@
                 "declKind": "Accessor",
                 "usr": "s:17BBNativePlayerKit0aB3APIC13adMediaHeightSiSgvg",
                 "mangledName": "$s17BBNativePlayerKit0aB3APIC13adMediaHeightSiSgvg",
+                "moduleName": "BBNativePlayerKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullscreen",
+            "printedName": "fullscreen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BBNativePlayerKit0aB3APIC10fullscreenSbSgvp",
+            "mangledName": "$s17BBNativePlayerKit0aB3APIC10fullscreenSbSgvp",
+            "moduleName": "BBNativePlayerKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BBNativePlayerKit0aB3APIC10fullscreenSbSgvg",
+                "mangledName": "$s17BBNativePlayerKit0aB3APIC10fullscreenSbSgvg",
                 "moduleName": "BBNativePlayerKit",
                 "accessorKind": "get"
               }
