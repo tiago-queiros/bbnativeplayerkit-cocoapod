@@ -461,6 +461,14 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// \param playerView UIView
 ///
 - (void)bbNativePlayerViewWithDidTriggerAdSwipeRight:(BBNativePlayerView * _Nonnull)playerView;
+/// User swiped up on ad
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAdSwipeUp:(BBNativePlayerView * _Nonnull)playerView;
+/// User swiped down on ad
+/// \param playerView UIView
+///
+- (void)bbNativePlayerViewWithDidTriggerAdSwipeDown:(BBNativePlayerView * _Nonnull)playerView;
 @end
 
 @class GCKSessionManager;

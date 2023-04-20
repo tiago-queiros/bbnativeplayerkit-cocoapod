@@ -1994,6 +1994,72 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bbNativePlayerView",
+            "printedName": "bbNativePlayerView(didTriggerAdSwipeUp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BBNativePlayerView",
+                "printedName": "BBNativePlayerKit.BBNativePlayerView",
+                "usr": "c:@M@BBNativePlayerKit@objc(cs)BBNativePlayerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdSwipeUp:",
+            "mangledName": "$s17BBNativePlayerKit0aB12ViewDelegateP08bbNativebD019didTriggerAdSwipeUpyAA0abD0C_tF",
+            "moduleName": "BBNativePlayerKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BBNativePlayerKit.BBNativePlayerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : BBNativePlayerKit.BBNativePlayerViewDelegate>",
+            "protocolReq": true,
+            "objc_name": "bbNativePlayerViewWithDidTriggerAdSwipeUp:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bbNativePlayerView",
+            "printedName": "bbNativePlayerView(didTriggerAdSwipeDown:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BBNativePlayerView",
+                "printedName": "BBNativePlayerKit.BBNativePlayerView",
+                "usr": "c:@M@BBNativePlayerKit@objc(cs)BBNativePlayerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdSwipeDown:",
+            "mangledName": "$s17BBNativePlayerKit0aB12ViewDelegateP08bbNativebD021didTriggerAdSwipeDownyAA0abD0C_tF",
+            "moduleName": "BBNativePlayerKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BBNativePlayerKit.BBNativePlayerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : BBNativePlayerKit.BBNativePlayerViewDelegate>",
+            "protocolReq": true,
+            "objc_name": "bbNativePlayerViewWithDidTriggerAdSwipeDown:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -8834,84 +8900,84 @@
     {
       "filePath": "\/Users\/Olaf\/Documents\/Projects\/BlueBillywig\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Controllers\/AdController.swift",
       "kind": "StringLiteral",
-      "offset": 915,
+      "offset": 1059,
       "length": 7,
       "value": "\"false\""
     },
     {
       "filePath": "\/Users\/Olaf\/Documents\/Projects\/BlueBillywig\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Controllers\/AdController.swift",
       "kind": "StringLiteral",
-      "offset": 974,
+      "offset": 1118,
       "length": 7,
       "value": "\"false\""
     },
     {
       "filePath": "\/Users\/Olaf\/Documents\/Projects\/BlueBillywig\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Controllers\/AdController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1230,
+      "offset": 1374,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Olaf\/Documents\/Projects\/BlueBillywig\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Controllers\/AdController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1263,
+      "offset": 1407,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Olaf\/Documents\/Projects\/BlueBillywig\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Controllers\/AdController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1297,
+      "offset": 1441,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Olaf\/Documents\/Projects\/BlueBillywig\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Controllers\/AdController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1783,
+      "offset": 1993,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Olaf\/Documents\/Projects\/BlueBillywig\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Controllers\/AdController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1789,
+      "offset": 1999,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Olaf\/Documents\/Projects\/BlueBillywig\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Controllers\/AdController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1799,
+      "offset": 2009,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/Olaf\/Documents\/Projects\/BlueBillywig\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Controllers\/AdController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1812,
+      "offset": 2022,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/Olaf\/Documents\/Projects\/BlueBillywig\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Controllers\/AdController.swift",
       "kind": "StringLiteral",
-      "offset": 1968,
+      "offset": 2178,
       "length": 21,
       "value": "\"speaker.wave.3.fill\""
     },
     {
       "filePath": "\/Users\/Olaf\/Documents\/Projects\/BlueBillywig\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Controllers\/AdController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2158,
+      "offset": 2368,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Olaf\/Documents\/Projects\/BlueBillywig\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Controllers\/AdController.swift",
       "kind": "StringLiteral",
-      "offset": 531,
+      "offset": 675,
       "length": 12,
       "value": "\"BBNativePlayerKit.AdController\""
     },
