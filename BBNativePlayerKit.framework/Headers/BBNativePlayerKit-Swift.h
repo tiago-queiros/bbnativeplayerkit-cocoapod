@@ -264,6 +264,14 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit28BBNativePlayerViewController")
 - (void)viewDidDisappear:(BOOL)animated;
 @end
 
+@class UIGestureRecognizer;
+@class UITouch;
+
+@interface BBNativePlayerViewController (SWIFT_EXTENSION(BBNativePlayerKit)) <UIGestureRecognizerDelegate>
+- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldReceiveTouch:(UITouch * _Nonnull)touch SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class BbnativesharedMediaClip;
 @class BbnativesharedProject;
 @class BbnativesharedPhase;
@@ -469,6 +477,12 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 /// \param playerView UIView
 ///
 - (void)bbNativePlayerViewWithDidTriggerAdSwipeDown:(BBNativePlayerView * _Nonnull)playerView;
+/// User use UIPangesture on player. Listen  to this delegate to get pan movement on the player while playing Gesture blocking ads
+/// \param playerView UIView
+///
+/// \param translation CGPoint
+///
+- (void)bbNativePlayerViewWithDidTriggerUIPanGesture:(BBNativePlayerView * _Nonnull)playerView translation:(CGPoint)translation;
 @end
 
 @class GCKSessionManager;
