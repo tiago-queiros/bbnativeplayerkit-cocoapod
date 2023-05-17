@@ -435,6 +435,82 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gestureRecognizer",
+            "printedName": "gestureRecognizer(_:shouldRecognizeSimultaneouslyWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BBNativePlayerKit@objc(cs)BBNativePlayerViewController(im)gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
+            "mangledName": "$s17BBNativePlayerKit0aB14ViewControllerC17gestureRecognizer_33shouldRecognizeSimultaneouslyWithSbSo09UIGestureG0C_AGtF",
+            "moduleName": "BBNativePlayerKit",
+            "objc_name": "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gestureRecognizer",
+            "printedName": "gestureRecognizer(_:shouldReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITouch",
+                "printedName": "UIKit.UITouch",
+                "usr": "c:objc(cs)UITouch"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BBNativePlayerKit@objc(cs)BBNativePlayerViewController(im)gestureRecognizer:shouldReceiveTouch:",
+            "mangledName": "$s17BBNativePlayerKit0aB14ViewControllerC17gestureRecognizer_13shouldReceiveSbSo09UIGestureG0C_So7UITouchCtF",
+            "moduleName": "BBNativePlayerKit",
+            "objc_name": "gestureRecognizer:shouldReceiveTouch:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2053,6 +2129,45 @@
             "sugared_genericSig": "<Self where Self : BBNativePlayerKit.BBNativePlayerViewDelegate>",
             "protocolReq": true,
             "objc_name": "bbNativePlayerViewWithDidTriggerAdSwipeDown:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bbNativePlayerView",
+            "printedName": "bbNativePlayerView(didTriggerUIPanGesture:translation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BBNativePlayerView",
+                "printedName": "BBNativePlayerKit.BBNativePlayerView",
+                "usr": "c:@M@BBNativePlayerKit@objc(cs)BBNativePlayerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerUIPanGesture:translation:",
+            "mangledName": "$s17BBNativePlayerKit0aB12ViewDelegateP08bbNativebD022didTriggerUIPanGesture11translationyAA0abD0C_So7CGPointVtF",
+            "moduleName": "BBNativePlayerKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BBNativePlayerKit.BBNativePlayerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : BBNativePlayerKit.BBNativePlayerViewDelegate>",
+            "protocolReq": true,
+            "objc_name": "bbNativePlayerViewWithDidTriggerUIPanGesture:translation:",
             "declAttributes": [
               "Optional",
               "ObjC",

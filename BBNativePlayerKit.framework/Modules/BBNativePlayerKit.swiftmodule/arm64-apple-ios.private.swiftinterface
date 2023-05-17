@@ -25,6 +25,10 @@ import os
   @_Concurrency.MainActor(unsafe) public func __destruct()
   @objc deinit
 }
+extension BBNativePlayerKit.BBNativePlayerViewController : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
+}
 extension BBNativePlayerKit.BBNativePlayerView {
   @_Concurrency.MainActor(unsafe) public func callApiMethod(method: bbnativeshared.ApiMethod, args: [Swift.String : Any?]?)
   @_Concurrency.MainActor(unsafe) public func setApiProperty(property: bbnativeshared.ApiProperty, value: Any?)
@@ -73,6 +77,7 @@ extension BBNativePlayerKit.BBNativePlayerView {
   @objc optional func bbNativePlayerView(didTriggerAdSwipeRight playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAdSwipeUp playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAdSwipeDown playerView: BBNativePlayerKit.BBNativePlayerView)
+  @objc optional func bbNativePlayerView(didTriggerUIPanGesture playerView: BBNativePlayerKit.BBNativePlayerView, translation: CoreFoundation.CGPoint)
 }
 extension BBNativePlayerKit.BBNativePlayerView : bbnativeshared.EventListenerInterface {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func onEvent(eventType: bbnativeshared.EventName, data: [Swift.String : Any]?)
