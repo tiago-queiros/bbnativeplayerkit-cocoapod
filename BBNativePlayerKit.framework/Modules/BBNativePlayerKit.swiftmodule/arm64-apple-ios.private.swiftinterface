@@ -93,6 +93,8 @@ extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVPlayerViewControllerDel
   @_Concurrency.MainActor(unsafe) @objc dynamic public func playerViewController(_: AVKit.AVPlayerViewController, willBeginFullScreenPresentationWithAnimationCoordinator coordinator: UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func playerViewController(_ playerViewController: AVKit.AVPlayerViewController, willEndFullScreenPresentationWithAnimationCoordinator coordinator: UIKit.UIViewControllerTransitionCoordinator)
 }
+extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVRoutePickerViewDelegate {
+}
 @_hasMissingDesignatedInitializers public class BBNativePlayerAPI {
   public func closeModalPlayer()
   public func getModalPlayerView() -> UIKit.UIView?
