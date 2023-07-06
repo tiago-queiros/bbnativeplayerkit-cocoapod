@@ -18,6 +18,7 @@ import os
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BBNativePlayerViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var inViewController: bbnativeshared.InViewController?
   @_Concurrency.MainActor(unsafe) weak public var chromeCastViewController: BBNativePlayerKit.ChromeCastViewController?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
