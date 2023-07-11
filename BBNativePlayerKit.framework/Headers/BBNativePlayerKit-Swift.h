@@ -218,7 +218,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-
 @class NSCoder;
 @class NSString;
 
@@ -233,6 +232,10 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
 - (void)removeFromSuperview;
 @end
 
+
+
+@interface BBNativePlayerView (SWIFT_EXTENSION(BBNativePlayerKit)) <AVRoutePickerViewDelegate>
+@end
 
 @class BbnativesharedEventName;
 
@@ -258,6 +261,7 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit28BBNativePlayerViewController")
 @interface BBNativePlayerViewController : UIViewController
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
@@ -522,6 +526,8 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit32ChromeCastViewControllerDelegate_")
 - (void)chromeCastViewControllerWithChromeCastViewController:(MediaViewController * _Nonnull)chromeCastViewController mediaProgress:(float)position;
 - (void)chromeCastViewControllerWithDidRequestDirectCast:(MediaViewController * _Nonnull)chromeCastViewController;
 @end
+
+
 
 
 
