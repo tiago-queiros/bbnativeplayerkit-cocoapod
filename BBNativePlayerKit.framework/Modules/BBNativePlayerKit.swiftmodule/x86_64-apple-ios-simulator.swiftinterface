@@ -28,6 +28,9 @@ extension BBNativePlayerKit.BBNativePlayerViewController : UIKit.UIGestureRecogn
   @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
 }
+extension BBNativePlayerKit.BBNativePlayerViewController : bbnativeshared.EventListenerInterface {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onEvent(eventType: bbnativeshared.EventName, data: [Swift.String : Any]?)
+}
 extension BBNativePlayerKit.BBNativePlayerView {
   @_Concurrency.MainActor(unsafe) public func callApiMethod(method: bbnativeshared.ApiMethod, args: [Swift.String : Any?]?)
   @_Concurrency.MainActor(unsafe) public func setApiProperty(property: bbnativeshared.ApiProperty, value: Any?)

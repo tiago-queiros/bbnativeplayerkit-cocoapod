@@ -268,6 +268,11 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit28BBNativePlayerViewController")
 - (void)viewDidDisappear:(BOOL)animated;
 @end
 
+
+@interface BBNativePlayerViewController (SWIFT_EXTENSION(BBNativePlayerKit)) <BbnativesharedEventListenerInterface>
+- (void)onEventEventType:(BbnativesharedEventName * _Nonnull)eventType data:(NSDictionary<NSString *, id> * _Nullable)data;
+@end
+
 @class UIGestureRecognizer;
 @class UITouch;
 
