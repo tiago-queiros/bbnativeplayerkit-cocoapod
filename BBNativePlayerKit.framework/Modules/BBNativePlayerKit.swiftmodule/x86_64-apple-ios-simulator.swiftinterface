@@ -79,7 +79,7 @@ extension BBNativePlayerKit.BBNativePlayerView {
   @objc optional func bbNativePlayerView(didTriggerAdSwipeRight playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAdSwipeUp playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAdSwipeDown playerView: BBNativePlayerKit.BBNativePlayerView)
-  @objc optional func bbNativePlayerView(didTriggerUIPanGesture playerView: BBNativePlayerKit.BBNativePlayerView, translation: CoreGraphics.CGPoint)
+  @objc optional func bbNativePlayerView(didTriggerUIPanGesture playerView: BBNativePlayerKit.BBNativePlayerView, translation: CoreGraphics.CGPoint, velocity: CoreGraphics.CGPoint)
 }
 extension BBNativePlayerKit.BBNativePlayerView : bbnativeshared.EventListenerInterface {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func onEvent(eventType: bbnativeshared.EventName, data: [Swift.String : Any]?)

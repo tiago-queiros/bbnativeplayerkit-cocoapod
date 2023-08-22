@@ -491,7 +491,7 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 ///
 /// \param translation CGPoint
 ///
-- (void)bbNativePlayerViewWithDidTriggerUIPanGesture:(BBNativePlayerView * _Nonnull)playerView translation:(CGPoint)translation;
+- (void)bbNativePlayerViewWithDidTriggerUIPanGesture:(BBNativePlayerView * _Nonnull)playerView translation:(CGPoint)translation velocity:(CGPoint)velocity;
 @end
 
 @class GCKSessionManager;
