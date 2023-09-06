@@ -16,12 +16,20 @@ import os
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BBNativePlayerViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var inViewController: bbnativeshared.InViewController?
   @_Concurrency.MainActor(unsafe) weak public var chromeCastViewController: BBNativePlayerKit.ChromeCastViewController?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreGraphics.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func __destruct()
   @objc deinit
+}
+extension BBNativePlayerKit.BBNativePlayerViewController : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
+}
+extension BBNativePlayerKit.BBNativePlayerViewController : bbnativeshared.EventListenerInterface {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onEvent(eventType: bbnativeshared.EventName, data: [Swift.String : Any]?)
 }
 extension BBNativePlayerKit.BBNativePlayerView {
   @_Concurrency.MainActor(unsafe) public func callApiMethod(method: bbnativeshared.ApiMethod, args: [Swift.String : Any?]?)
@@ -71,6 +79,7 @@ extension BBNativePlayerKit.BBNativePlayerView {
   @objc optional func bbNativePlayerView(didTriggerAdSwipeRight playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAdSwipeUp playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAdSwipeDown playerView: BBNativePlayerKit.BBNativePlayerView)
+  @objc optional func bbNativePlayerView(didTriggerUIPanGesture playerView: BBNativePlayerKit.BBNativePlayerView, translation: CoreGraphics.CGPoint, velocity: CoreGraphics.CGPoint)
 }
 extension BBNativePlayerKit.BBNativePlayerView : bbnativeshared.EventListenerInterface {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func onEvent(eventType: bbnativeshared.EventName, data: [Swift.String : Any]?)
@@ -85,6 +94,8 @@ extension BBNativePlayerKit.BBNativePlayerView : bbnativeshared.EventListenerInt
 extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func playerViewController(_: AVKit.AVPlayerViewController, willBeginFullScreenPresentationWithAnimationCoordinator coordinator: UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func playerViewController(_ playerViewController: AVKit.AVPlayerViewController, willEndFullScreenPresentationWithAnimationCoordinator coordinator: UIKit.UIViewControllerTransitionCoordinator)
+}
+extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVRoutePickerViewDelegate {
 }
 @_hasMissingDesignatedInitializers public class BBNativePlayerAPI {
   public func closeModalPlayer()
