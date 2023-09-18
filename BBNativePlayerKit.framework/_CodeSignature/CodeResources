@@ -10,11 +10,11 @@
 		</data>
 		<key>BBNativePlayerKit_profile</key>
 		<data>
-		raoibwkGt+BdYvSq5g/qA2wzdO8=
+		Gryd4SRlc6ZYS7dLWDto3fBGAYE=
 		</data>
 		<key>Headers/BBNativePlayerKit-Swift.h</key>
 		<data>
-		tmu6STYHlhz/EHnh7kXf5ULuTAM=
+		b94A+/SabxJBLmnLKZYj+fvIhfs=
 		</data>
 		<key>Headers/BBNativePlayerKit.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/BBNativePlayerKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Fgvt09Dj3V/tgZVWko2GdQmvYWM=
+		zuF0FmHQHoiHn/Bj9kZNTYVNNso=
 		</data>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		GXrTlNpJVI2zJzdM3k/4qB8D7mw=
+		7eq90PyLG/jVYNK6EApxfOu98gQ=
 		</data>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OAWK+k/zD/9wziYXDcuaHwGGDE4=
+		ozBqk2bLmSLdLQr7fqpp1v5Ylqs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,14 +66,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ne2xE3yC5kZhzvbfrO1HspYeAK+lPJfviK39KPVYtWM=
+			sDXyKb32jXbVXJoVaFyh3h7cUHxd8U7mbFSTcl3GH3U=
 			</data>
 		</dict>
 		<key>Headers/BBNativePlayerKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XtMKrmDllI+A8Scod2MFq42TcO6MLPYBHwVguDSLXlk=
+			zoHqeXW9TOJD+HXaVCcOOyEanMg7MCWV3PSgP8gzF6A=
 			</data>
 		</dict>
 		<key>Headers/BBNativePlayerKit.h</key>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wtm/hUpoiMSOOY3+DJgC75jaf/NcBj9m6HQfOnUxRoA=
+			Gokfe7gU0SWEG/9afPIm0rjUN16BhLauAA5o3n5mlxw=
 			</data>
 		</dict>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -115,14 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aXFTX1JcD1Dgj+Lq8VeCprZvNgmwcJaFBJULxk9XusY=
+			GEF25nz1VvYkCwLyBmUalw5is4lJz3okqEPb9nqkEX8=
 			</data>
 		</dict>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7711Odw8WNHWYDUr7qsh32AMN0eStCEvFuCTsLSvCn0=
+			kGp33VBOwXCXgqI/d0hVQxRoSLjLZO3bEkbMKxXmd2U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
