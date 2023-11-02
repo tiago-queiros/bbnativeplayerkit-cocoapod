@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BBNativePlayerKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -18,11 +18,17 @@ import os
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BBNativePlayerViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var inViewController: bbnativeshared.InViewController?
   @_Concurrency.MainActor(unsafe) weak public var chromeCastViewController: BBNativePlayerKit.ChromeCastViewController?
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
   @_Concurrency.MainActor(unsafe) public func __destruct()
   @objc deinit
 }
@@ -87,15 +93,15 @@ extension BBNativePlayerKit.BBNativePlayerView : bbnativeshared.EventListenerInt
   @_Concurrency.MainActor(unsafe) @objc dynamic public func onEvent(eventType: bbnativeshared.EventName, data: [Swift.String : Any]?)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BBNativePlayerView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: BBNativePlayerKit.BBNativePlayerViewDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any BBNativePlayerKit.BBNativePlayerViewDelegate)?
   @_Concurrency.MainActor(unsafe) public var player: BBNativePlayerKit.BBNativePlayerAPI
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func removeFromSuperview()
   @objc deinit
 }
 extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func playerViewController(_: AVKit.AVPlayerViewController, willBeginFullScreenPresentationWithAnimationCoordinator coordinator: UIKit.UIViewControllerTransitionCoordinator)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func playerViewController(_ playerViewController: AVKit.AVPlayerViewController, willEndFullScreenPresentationWithAnimationCoordinator coordinator: UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func playerViewController(_: AVKit.AVPlayerViewController, willBeginFullScreenPresentationWithAnimationCoordinator coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func playerViewController(_ playerViewController: AVKit.AVPlayerViewController, willEndFullScreenPresentationWithAnimationCoordinator coordinator: any UIKit.UIViewControllerTransitionCoordinator)
 }
 extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVRoutePickerViewDelegate {
 }
@@ -190,7 +196,7 @@ extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func isVisible() -> Swift.Bool
 }
 @_inheritsConvenienceInitializers @objc(MediaViewController) @_Concurrency.MainActor(unsafe) public class ChromeCastViewController : UIKit.UIViewController, GoogleCast.GCKSessionManagerListener, GoogleCast.GCKRemoteMediaClientListener, GoogleCast.GCKLoggerDelegate, GoogleCast.GCKRequestDelegate, GoogleCast.GCKUIMiniMediaControlsViewControllerDelegate {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: BBNativePlayerKit.ChromeCastViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any BBNativePlayerKit.ChromeCastViewControllerDelegate)?
   @_Concurrency.MainActor(unsafe) public var sessionManager: GoogleCast.GCKSessionManager!
   @_Concurrency.MainActor(unsafe) public var castButton: GoogleCast.GCKUICastButton!
   @_Concurrency.MainActor(unsafe) public var miniMediaControlsContainerView: UIKit.UIView!
@@ -212,7 +218,7 @@ extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func setMessageLabel(deviceName: Swift.String?, isThisPlayer: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc public func sessionManager(_: GoogleCast.GCKSessionManager, didStart session: GoogleCast.GCKSession)
   @_Concurrency.MainActor(unsafe) @objc public func sessionManager(_: GoogleCast.GCKSessionManager, didResumeSession session: GoogleCast.GCKSession)
-  @_Concurrency.MainActor(unsafe) @objc public func sessionManager(_: GoogleCast.GCKSessionManager, didEnd _: GoogleCast.GCKSession, withError error: Swift.Error?)
+  @_Concurrency.MainActor(unsafe) @objc public func sessionManager(_: GoogleCast.GCKSessionManager, didEnd _: GoogleCast.GCKSession, withError error: (any Swift.Error)?)
   @_Concurrency.MainActor(unsafe) @objc public func logMessage(_ message: Swift.String, at level: GoogleCast.GCKLoggerLevel, fromFunction function: Swift.String, location: Swift.String)
   @_Concurrency.MainActor(unsafe) @objc public func requestDidComplete(_ request: GoogleCast.GCKRequest)
   @_Concurrency.MainActor(unsafe) @objc public func miniMediaControlsViewController(_ miniMediaControlsViewController: GoogleCast.GCKUIMiniMediaControlsViewController, shouldAppear: Swift.Bool)
@@ -225,9 +231,9 @@ extension UIKit.UIView {
 @objc public protocol ChromeCastViewControllerDelegate {
   @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionStarted session: GoogleCast.GCKSession)
   @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionResumed session: GoogleCast.GCKSession)
-  @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionEnded resumeInAVPlayer: Swift.Bool, withError: Swift.Error?)
-  @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionFailedToStart withError: Swift.Error?)
-  @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionFailedToResume withError: Swift.Error?)
+  @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionEnded resumeInAVPlayer: Swift.Bool, withError: (any Swift.Error)?)
+  @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionFailedToStart withError: (any Swift.Error)?)
+  @objc func chromeCastViewController(chromeCastViewController: BBNativePlayerKit.ChromeCastViewController, sessionFailedToResume withError: (any Swift.Error)?)
   @objc func chromeCastViewController(mediaStatusFinished chromeCastViewController: BBNativePlayerKit.ChromeCastViewController)
   @objc func chromeCastViewController(mediaStatusError chromeCastViewController: BBNativePlayerKit.ChromeCastViewController)
   @objc func chromeCastViewController(mediaStatusPlaying chromeCastViewController: BBNativePlayerKit.ChromeCastViewController)

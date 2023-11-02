@@ -6,6 +6,6 @@ framework module BBNativePlayerKit {
 }
 
 module BBNativePlayerKit.Swift {
-    header "BBNativePlayerKit-Swift.h"
-    requires objc
+  header "BBNativePlayerKit-Swift.h"
+  requires objc
 }
