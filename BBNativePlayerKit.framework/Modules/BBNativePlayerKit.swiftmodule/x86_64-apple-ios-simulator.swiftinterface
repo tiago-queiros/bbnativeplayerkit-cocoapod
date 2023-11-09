@@ -11,6 +11,7 @@ import GoogleInteractiveMediaAds
 import Swift
 import UIKit.UIDevice
 import UIKit
+import UserMessagingPlatform
 import _Concurrency
 import _StringProcessing
 import bbnativeshared
