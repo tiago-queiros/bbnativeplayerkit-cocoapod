@@ -88,7 +88,7 @@ extension BBNativePlayerKit.BBNativePlayerView {
   @objc optional func bbNativePlayerView(didTriggerAdSwipeRight playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAdSwipeUp playerView: BBNativePlayerKit.BBNativePlayerView)
   @objc optional func bbNativePlayerView(didTriggerAdSwipeDown playerView: BBNativePlayerKit.BBNativePlayerView)
-  @objc optional func bbNativePlayerView(didTriggerUIPanGesture playerView: BBNativePlayerKit.BBNativePlayerView, translation: CoreFoundation.CGPoint, velocity: CoreFoundation.CGPoint)
+  @objc optional func bbNativePlayerView(didTriggerUIPanGesture playerView: BBNativePlayerKit.BBNativePlayerView, translation: CoreFoundation.CGPoint, velocity: CoreFoundation.CGPoint, location: CoreFoundation.CGPoint, state: UIKit.UIGestureRecognizer.State)
 }
 extension BBNativePlayerKit.BBNativePlayerView : bbnativeshared.EventListenerInterface {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func onEvent(eventType: bbnativeshared.EventName, data: [Swift.String : Any]?)
@@ -101,7 +101,7 @@ extension BBNativePlayerKit.BBNativePlayerView : bbnativeshared.EventListenerInt
   @objc deinit
 }
 extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVPlayerViewControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func playerViewController(_: AVKit.AVPlayerViewController, willBeginFullScreenPresentationWithAnimationCoordinator coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func playerViewController(_ playerViewController: AVKit.AVPlayerViewController, willBeginFullScreenPresentationWithAnimationCoordinator coordinator: any UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func playerViewController(_ playerViewController: AVKit.AVPlayerViewController, willEndFullScreenPresentationWithAnimationCoordinator coordinator: any UIKit.UIViewControllerTransitionCoordinator)
 }
 extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVRoutePickerViewDelegate {

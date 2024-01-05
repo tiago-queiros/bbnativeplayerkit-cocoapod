@@ -316,7 +316,7 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
 
 @interface BBNativePlayerView (SWIFT_EXTENSION(BBNativePlayerKit)) <AVPlayerViewControllerDelegate>
 /// :nodoc:
-- (void)playerViewController:(AVPlayerViewController * _Nonnull)_ willBeginFullScreenPresentationWithAnimationCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
+- (void)playerViewController:(AVPlayerViewController * _Nonnull)playerViewController willBeginFullScreenPresentationWithAnimationCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (void)playerViewController:(AVPlayerViewController * _Nonnull)playerViewController willEndFullScreenPresentationWithAnimationCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 @end
 
@@ -561,7 +561,13 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 ///
 /// \param translation CGPoint
 ///
-- (void)bbNativePlayerViewWithDidTriggerUIPanGesture:(BBNativePlayerView * _Nonnull)playerView translation:(CGPoint)translation velocity:(CGPoint)velocity;
+/// \param velocity CGPoint
+///
+/// \param location CGPoint
+///
+/// \param state UIGestureRecognizer.State
+///
+- (void)bbNativePlayerViewWithDidTriggerUIPanGesture:(BBNativePlayerView * _Nonnull)playerView translation:(CGPoint)translation velocity:(CGPoint)velocity location:(CGPoint)location state:(UIGestureRecognizerState)state;
 @end
 
 @class GCKSessionManager;
@@ -935,7 +941,7 @@ SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
 
 @interface BBNativePlayerView (SWIFT_EXTENSION(BBNativePlayerKit)) <AVPlayerViewControllerDelegate>
 /// :nodoc:
-- (void)playerViewController:(AVPlayerViewController * _Nonnull)_ willBeginFullScreenPresentationWithAnimationCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
+- (void)playerViewController:(AVPlayerViewController * _Nonnull)playerViewController willBeginFullScreenPresentationWithAnimationCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (void)playerViewController:(AVPlayerViewController * _Nonnull)playerViewController willEndFullScreenPresentationWithAnimationCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 @end
 
@@ -1180,7 +1186,13 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 ///
 /// \param translation CGPoint
 ///
-- (void)bbNativePlayerViewWithDidTriggerUIPanGesture:(BBNativePlayerView * _Nonnull)playerView translation:(CGPoint)translation velocity:(CGPoint)velocity;
+/// \param velocity CGPoint
+///
+/// \param location CGPoint
+///
+/// \param state UIGestureRecognizer.State
+///
+- (void)bbNativePlayerViewWithDidTriggerUIPanGesture:(BBNativePlayerView * _Nonnull)playerView translation:(CGPoint)translation velocity:(CGPoint)velocity location:(CGPoint)location state:(UIGestureRecognizerState)state;
 @end
 
 @class GCKSessionManager;

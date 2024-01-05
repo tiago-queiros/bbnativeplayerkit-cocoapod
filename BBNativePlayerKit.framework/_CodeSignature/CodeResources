@@ -10,11 +10,11 @@
 		</data>
 		<key>BBNativePlayerKit_profile</key>
 		<data>
-		k96pwDvseXNo1TXqfJtJKy5XYRs=
+		2QHplOHV29wLaTkDbWJQTWndD34=
 		</data>
 		<key>Headers/BBNativePlayerKit-Swift.h</key>
 		<data>
-		0vxGyLICSfONJtFh3oAeP/PYxUg=
+		UAQa25Y65SQkmZaf4r+aGLAPMMY=
 		</data>
 		<key>Headers/BBNativePlayerKit.h</key>
 		<data>
@@ -34,31 +34,99 @@
 		</data>
 		<key>Modules/BBNativePlayerKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		IA2HpoDcBBw/3ScepE4ssGL6sDI=
+		LAhNwxZYvUV+pSdrKgD5bGQaoBs=
 		</data>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+q9g06gDv322xihttipimd666GU=
+		vdeb9zIq7J01oFiUXgkzE6LvLl8=
 		</data>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		KmPyX7CV4izJBu7HSPgUx43sHa0=
+		wfpOVB0zJe471Y6A1VNnJZ4vTm8=
 		</data>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		G/1IiUqX6d5WEejekZdXpnvcC5A=
+		GQo/6Sgc6crC4iwrIgLGsXeOoVE=
 		</data>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		KmPyX7CV4izJBu7HSPgUx43sHa0=
+		wfpOVB0zJe471Y6A1VNnJZ4vTm8=
 		</data>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		s9iZMHHxmLzf90mSn6ToGyP7dw4=
+		h9HKkh1CM1iaZPeZxEdGcMKAU6w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		yp6jR7qmfOXwvS+J0++MHoO7trE=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/Info.plist</key>
+		<data>
+		PPiC1jPzk6ZtPr5XtCpVBYZ9o+0=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Headers/UMPConsentForm.h</key>
+		<data>
+		z6mtCk+9rFiXmTUvx1iwu7OD7Yc=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Headers/UMPConsentInformation.h</key>
+		<data>
+		nTwROE/A7JrgHOlBRVyp2eJrGZU=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Headers/UMPDebugSettings.h</key>
+		<data>
+		3j3YluAUdFOHBWzRn8gk5s/DAeE=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Headers/UMPError.h</key>
+		<data>
+		dap5fPtno9hcuFhzft3VWvMy4f0=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Headers/UMPRequestParameters.h</key>
+		<data>
+		biWyekLSQxSKsxHTjJ8KDsmj7qQ=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Headers/UserMessagingPlatform.h</key>
+		<data>
+		9RCFJSaqhLHeEgqG9d/eph7W3lI=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Modules/module.modulemap</key>
+		<data>
+		RkG2jbWyWyEbQ8hlPX98EMJhvZc=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/UserMessagingPlatform</key>
+		<data>
+		fKmMwJ9o1bqbeIxIov0Jt06+57Q=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Headers/UMPConsentForm.h</key>
+		<data>
+		z6mtCk+9rFiXmTUvx1iwu7OD7Yc=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Headers/UMPConsentInformation.h</key>
+		<data>
+		nTwROE/A7JrgHOlBRVyp2eJrGZU=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Headers/UMPDebugSettings.h</key>
+		<data>
+		3j3YluAUdFOHBWzRn8gk5s/DAeE=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Headers/UMPError.h</key>
+		<data>
+		dap5fPtno9hcuFhzft3VWvMy4f0=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Headers/UMPRequestParameters.h</key>
+		<data>
+		biWyekLSQxSKsxHTjJ8KDsmj7qQ=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Headers/UserMessagingPlatform.h</key>
+		<data>
+		9RCFJSaqhLHeEgqG9d/eph7W3lI=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Modules/module.modulemap</key>
+		<data>
+		RkG2jbWyWyEbQ8hlPX98EMJhvZc=
+		</data>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/UserMessagingPlatform</key>
+		<data>
+		9qgolQVG/yHbxxXeRuatBIKyBqA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -74,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			INR0+iW1ZcmOOxMv2PEvkVvp5XDb6agbQiHC+mEOEto=
+			cQ1zRT6tltZ8ohICWfcmCmyUtfDBc2J93pTrGbevm/4=
 			</data>
 		</dict>
 		<key>Headers/BBNativePlayerKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cH5liZ6f7i109t4Y9SmPkPasnggEjUWTu+mkmK4x4Es=
+			WhL6HMi3lL2X9LKkz98pVMJ71SaPVASWi4Sr7zaHUSw=
 			</data>
 		</dict>
 		<key>Headers/BBNativePlayerKit.h</key>
@@ -109,42 +177,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jrPQez17LHLvl2jAF4Tj7ZoVim4c23ulTd/Bl9aPp4Q=
+			fOD1Hy4cQcvu1vmOd8il4eXQYIPo8/JeJjyCzI8PSFU=
 			</data>
 		</dict>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M4x2gc6nOe42ewXZX2bxntTT6qiWHBHc3vfwOuu33KI=
+			0FODB1DkyXowJTwwdlQUA4y2NuFeKjNC7xTIx6Xrs84=
 			</data>
 		</dict>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			crw9va4YfFPeBWFIgU3vLrvVHHpjEmH2mLTjllqRgrY=
+			oBvRivbWBPi++cDIL/W6Q5oc7tdp2bfBSFSj2PKSSZ0=
 			</data>
 		</dict>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			76FbrVcxi+2+MN+yweg6cOi9on/oJ0TeqV8PtTEIeyw=
+			TAce3nhKWaKHuAhoQgr3rO4Hq/AxlF6oEe5j2HR/lGs=
 			</data>
 		</dict>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			crw9va4YfFPeBWFIgU3vLrvVHHpjEmH2mLTjllqRgrY=
+			oBvRivbWBPi++cDIL/W6Q5oc7tdp2bfBSFSj2PKSSZ0=
 			</data>
 		</dict>
 		<key>Modules/BBNativePlayerKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y0cWbXFqIiRplXFIdxemGWrCcW+0X7RqHtIGowWC33c=
+			SupskLbeQOoyFzqoQaYOTnzuW86ZZU8I2pM/PDsJ7nk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -152,6 +220,125 @@
 			<key>hash2</key>
 			<data>
 			woYJ6f/8l1QJJCfVQQrd/z71cqoyB1SRHZ8Ul25B4SU=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jKaCkfIo/smR9b8Paj2CXI8thTwOwvft9jpZkDVhiGA=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Headers/UMPConsentForm.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OwZyBXD77uoq+ek46dD7dqPf76vxTPXCg9wmmmzG2dc=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Headers/UMPConsentInformation.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ofTAHdcbyTaK9Dd3vFWZfDh6sx/22bavVkEUQrKx8kk=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Headers/UMPDebugSettings.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Qn7FhykPGSB9pfoFXKWz6NT9vt69hTSncxtaOsuWjIk=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Headers/UMPError.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v0umJGzT5bRrYkwGJzPCZ9JC74kxjka7RH9xyLveHpg=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Headers/UMPRequestParameters.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I/ZkAH7XX1RbIA+P/tfB/7MPDRl2RorB5sh/YbPq/5Y=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Headers/UserMessagingPlatform.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oIfOo52szNDhoW7/k2wegqpLbm/gh4ehYlgE9ik6M2U=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			58hJ+pDAaGDwJPOU6I9Te4Vv2O/oXyVD+XQQyTwdk94=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/UserMessagingPlatform</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v68q6n+0bnB8PdiXirQqS/uzPV3aO4v4ztf0qrLeGpQ=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Headers/UMPConsentForm.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OwZyBXD77uoq+ek46dD7dqPf76vxTPXCg9wmmmzG2dc=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Headers/UMPConsentInformation.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ofTAHdcbyTaK9Dd3vFWZfDh6sx/22bavVkEUQrKx8kk=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Headers/UMPDebugSettings.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Qn7FhykPGSB9pfoFXKWz6NT9vt69hTSncxtaOsuWjIk=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Headers/UMPError.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v0umJGzT5bRrYkwGJzPCZ9JC74kxjka7RH9xyLveHpg=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Headers/UMPRequestParameters.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I/ZkAH7XX1RbIA+P/tfB/7MPDRl2RorB5sh/YbPq/5Y=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Headers/UserMessagingPlatform.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oIfOo52szNDhoW7/k2wegqpLbm/gh4ehYlgE9ik6M2U=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			58hJ+pDAaGDwJPOU6I9Te4Vv2O/oXyVD+XQQyTwdk94=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformSdkIos-2.1.0/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework/UserMessagingPlatform</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DAwKUhHzF9ruL+1Y2YLpmdqz2wGElBk1eRrA7B8L7LU=
 			</data>
 		</dict>
 	</dict>
