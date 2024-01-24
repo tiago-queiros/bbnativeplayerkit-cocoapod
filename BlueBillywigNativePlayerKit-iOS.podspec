@@ -16,11 +16,11 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "12.0"
 
 
-  spec.ios.deployment_target = '13.0'
+  spec.ios.deployment_target = '14.0'
   spec.ios.vendored_frameworks = 'BBNativePlayerKit.xcframework'
   spec.source       = { :git => "https://github.com/bluebillywig/bbnativeplayerkit-cocoapod.git", :tag => "#{spec.version}" }
 
-  spec.dependency   'GoogleAds-IMA-iOS-SDK', '3.18.4'
+  spec.dependency   'GoogleAds-IMA-iOS-SDK', '3.19.1'
   spec.dependency   'google-cast-sdk-dynamic-xcframework-ios-bb', '4.8.0'
   spec.dependency   'BlueBillywigNativeShared-iOS', '7.124'
   spec.dependency   'GoogleUserMessagingPlatform', '2.1.0'
