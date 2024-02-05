@@ -96,6 +96,7 @@ extension BBNativePlayerKit.BBNativePlayerView : bbnativeshared.EventListenerInt
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BBNativePlayerView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) weak public var delegate: (any BBNativePlayerKit.BBNativePlayerViewDelegate)?
   @_Concurrency.MainActor(unsafe) public var player: BBNativePlayerKit.BBNativePlayerAPI
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSublayers(of layer: QuartzCore.CALayer)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func removeFromSuperview()
   @objc deinit

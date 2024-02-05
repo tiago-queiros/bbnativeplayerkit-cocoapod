@@ -286,12 +286,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class CALayer;
 @class NSCoder;
 @class NSString;
 
 /// PlayerView used to play media from the Blue Billywig OVP
 SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativePlayerView")
 @interface BBNativePlayerView : UIView
+- (void)layoutSublayersOfLayer:(CALayer * _Nonnull)layer;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 /// :nodoc:
