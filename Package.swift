@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "BlueBillywigNativePlayerKit-iOS", targets: ["BBNativePlayerKitTargets"])
     ],
     dependencies: [
-        .package(url: "https://github.com/bluebillywig/bbnativeshared-cocoapod", branch: "7.125")
+        .package(url: "https://github.com/bluebillywig/bbnativeshared-cocoapod", exact: "7.126.0")
     ],
     targets: [
         .binaryTarget(
