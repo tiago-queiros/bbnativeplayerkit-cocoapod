@@ -5429,6 +5429,30 @@
       },
       {
         "kind": "Import",
+        "name": "bbnativeshared",
+        "printedName": "bbnativeshared",
+        "declKind": "Import",
+        "moduleName": "BBNativePlayerKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BBNativePlayerKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BBNativePlayerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -12774,1423 +12798,1409 @@
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 48544,
+      "offset": 48642,
       "length": 25,
       "value": "\"controlBarContainerView\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 48767,
+      "offset": 48865,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 48890,
+      "offset": 48988,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 48900,
+      "offset": 48998,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 48974,
+      "offset": 49072,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 49084,
+      "offset": 49182,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 49193,
+      "offset": 49291,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 49298,
+      "offset": 49396,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 49405,
+      "offset": 49503,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 49622,
+      "offset": 49720,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 49739,
+      "offset": 49837,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 49855,
+      "offset": 49953,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 49987,
+      "offset": 50085,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 50121,
+      "offset": 50219,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 50348,
+      "offset": 50446,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 50464,
+      "offset": 50562,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 50579,
+      "offset": 50677,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 50710,
+      "offset": 50808,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 50843,
+      "offset": 50941,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 51031,
+      "offset": 51129,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 51150,
+      "offset": 51248,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 51268,
+      "offset": 51366,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 51382,
+      "offset": 51480,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 51498,
+      "offset": 51596,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 51663,
+      "offset": 51761,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 51784,
+      "offset": 51882,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 51904,
+      "offset": 52002,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 52020,
+      "offset": 52118,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 52138,
+      "offset": 52236,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 52329,
+      "offset": 52427,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 52459,
+      "offset": 52557,
       "length": 2,
       "value": "-5"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 52474,
+      "offset": 52572,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 52599,
+      "offset": 52697,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 52613,
+      "offset": 52711,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 52686,
+      "offset": 52784,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 52701,
+      "offset": 52799,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 52775,
+      "offset": 52873,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 52790,
+      "offset": 52888,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 53148,
+      "offset": 53246,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 53244,
+      "offset": 53342,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 53318,
+      "offset": 53416,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 53408,
+      "offset": 53506,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 53536,
+      "offset": 53634,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 53662,
+      "offset": 53760,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 53677,
+      "offset": 53775,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 53764,
+      "offset": 53862,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 53779,
+      "offset": 53877,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 53865,
+      "offset": 53963,
       "length": 2,
       "value": "54"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 53880,
+      "offset": 53978,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 54121,
+      "offset": 54219,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 54238,
+      "offset": 54336,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 54354,
+      "offset": 54452,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 54486,
+      "offset": 54584,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 54620,
+      "offset": 54718,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 54932,
+      "offset": 55030,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 54942,
+      "offset": 55040,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55027,
+      "offset": 55125,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55150,
+      "offset": 55248,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55272,
+      "offset": 55370,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55390,
+      "offset": 55488,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55510,
+      "offset": 55608,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 55610,
+      "offset": 55708,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 55620,
+      "offset": 55718,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 55629,
+      "offset": 55727,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 55639,
+      "offset": 55737,
       "length": 4,
       "value": "0.30"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55849,
+      "offset": 55947,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55959,
+      "offset": 56057,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 56066,
+      "offset": 56164,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 56177,
+      "offset": 56275,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 56251,
+      "offset": 56349,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 56266,
+      "offset": 56364,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 56371,
+      "offset": 56469,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 56381,
+      "offset": 56479,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 56390,
+      "offset": 56488,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 56400,
+      "offset": 56498,
       "length": 4,
       "value": "0.50"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 56604,
+      "offset": 56702,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 56717,
+      "offset": 56815,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 56833,
+      "offset": 56931,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 56947,
+      "offset": 57045,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 57024,
+      "offset": 57122,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 57040,
+      "offset": 57138,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 57254,
+      "offset": 57352,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 57378,
+      "offset": 57476,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 57499,
+      "offset": 57597,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 57618,
+      "offset": 57716,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 57700,
+      "offset": 57798,
       "length": 2,
       "value": "83"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 57715,
+      "offset": 57813,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 58149,
+      "offset": 58247,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 58231,
+      "offset": 58329,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 58435,
+      "offset": 58533,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 58450,
+      "offset": 58548,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 58572,
+      "offset": 58670,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 58588,
+      "offset": 58686,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 58801,
+      "offset": 58899,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 58816,
+      "offset": 58914,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 59222,
+      "offset": 59320,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 59301,
+      "offset": 59399,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 59493,
+      "offset": 59591,
       "length": 11,
       "value": "\"Lato-Bold\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 59512,
+      "offset": 59610,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 59570,
+      "offset": 59668,
       "length": 11,
       "value": "\"Lato-Bold\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 59589,
+      "offset": 59687,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 59644,
+      "offset": 59742,
       "length": 11,
       "value": "\"Lato-Bold\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 59663,
+      "offset": 59761,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 60619,
+      "offset": 60717,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 60702,
+      "offset": 60800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 60923,
+      "offset": 61021,
       "length": 3,
       "value": "-15"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 60939,
+      "offset": 61037,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 61062,
+      "offset": 61160,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 61078,
+      "offset": 61176,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 61293,
+      "offset": 61391,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 61308,
+      "offset": 61406,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 61775,
+      "offset": 61873,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 61790,
+      "offset": 61888,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 61864,
+      "offset": 61962,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 61879,
+      "offset": 61977,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 61960,
+      "offset": 62058,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 61975,
+      "offset": 62073,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 62044,
+      "offset": 62142,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 62059,
+      "offset": 62157,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 62270,
+      "offset": 62368,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 62285,
+      "offset": 62383,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 62408,
+      "offset": 62506,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 62424,
+      "offset": 62522,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 62525,
+      "offset": 62623,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 62539,
+      "offset": 62637,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 62606,
+      "offset": 62704,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 62621,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
-      "kind": "IntegerLiteral",
       "offset": 62719,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 62734,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 62809,
+      "offset": 62817,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 62824,
+      "offset": 62832,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 62909,
+      "offset": 62907,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 62924,
+      "offset": 62922,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 62997,
+      "offset": 63007,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 63012,
+      "offset": 63022,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 63091,
+      "offset": 63095,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 63106,
+      "offset": 63110,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 63173,
+      "offset": 63189,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 63188,
+      "offset": 63204,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 63269,
+      "offset": 63271,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 63284,
+      "offset": 63286,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 63353,
+      "offset": 63367,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 63368,
+      "offset": 63382,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 63454,
+      "offset": 63451,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 63469,
+      "offset": 63466,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 63543,
+      "offset": 63552,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 63558,
+      "offset": 63567,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 63640,
+      "offset": 63641,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 63655,
+      "offset": 63656,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 63725,
+      "offset": 63738,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 63740,
+      "offset": 63753,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 63818,
+      "offset": 63823,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 63838,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63916,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 64119,
+      "offset": 64217,
       "length": 11,
       "value": "\"#343434FF\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 64211,
+      "offset": 64309,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 64334,
+      "offset": 64432,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 64456,
+      "offset": 64554,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 64574,
+      "offset": 64672,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 64694,
+      "offset": 64792,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 64895,
+      "offset": 64993,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 65039,
+      "offset": 65137,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 65180,
+      "offset": 65278,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 65319,
+      "offset": 65417,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 65401,
+      "offset": 65499,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 65416,
+      "offset": 65514,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 65460,
+      "offset": 65558,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 65882,
+      "offset": 65980,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 65964,
+      "offset": 66062,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 66168,
+      "offset": 66266,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 66182,
+      "offset": 66280,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 66306,
+      "offset": 66404,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 66320,
+      "offset": 66418,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 66442,
+      "offset": 66540,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 66457,
+      "offset": 66555,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 66539,
+      "offset": 66637,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 66554,
+      "offset": 66652,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 66966,
+      "offset": 67064,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 67045,
+      "offset": 67143,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 67165,
+      "offset": 67263,
       "length": 11,
       "value": "\"Lato-Bold\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 67184,
+      "offset": 67282,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 67242,
+      "offset": 67340,
       "length": 11,
       "value": "\"Lato-Bold\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 67261,
+      "offset": 67359,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 67316,
+      "offset": 67414,
       "length": 11,
       "value": "\"Lato-Bold\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 67335,
+      "offset": 67433,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 68007,
+      "offset": 68105,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 68022,
+      "offset": 68120,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 68096,
+      "offset": 68194,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 68111,
+      "offset": 68209,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 68192,
+      "offset": 68290,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 68207,
+      "offset": 68305,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 68276,
+      "offset": 68374,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 68291,
+      "offset": 68389,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 68366,
+      "offset": 68464,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 68381,
+      "offset": 68479,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 68456,
+      "offset": 68554,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 68471,
+      "offset": 68569,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 68715,
+      "offset": 68813,
       "length": 4,
       "value": "-260"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 68732,
+      "offset": 68830,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 68919,
+      "offset": 69017,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 69076,
+      "offset": 69174,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 69196,
+      "offset": 69294,
       "length": 3,
       "value": "-40"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 69212,
+      "offset": 69310,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 69334,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 69416,
-      "length": 3,
-      "value": "320"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
@@ -14202,9 +14212,9 @@
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 69515,
-      "length": 2,
-      "value": "40"
+      "offset": 69514,
+      "length": 3,
+      "value": "320"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
@@ -14215,1163 +14225,1177 @@
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 69613,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 69591,
+      "offset": 69628,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 69689,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 69694,
+      "offset": 69792,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 69784,
+      "offset": 69882,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 69826,
+      "offset": 69924,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 69891,
+      "offset": 69989,
       "length": 7,
       "value": "\"Start\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 69925,
+      "offset": 70023,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 70056,
+      "offset": 70154,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 70122,
+      "offset": 70220,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 70208,
+      "offset": 70306,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 70334,
+      "offset": 70432,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 70409,
+      "offset": 70507,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 70503,
+      "offset": 70601,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 70660,
+      "offset": 70758,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 70736,
+      "offset": 70834,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 70831,
+      "offset": 70929,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 70976,
+      "offset": 71074,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 71035,
+      "offset": 71133,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 71113,
+      "offset": 71211,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 71313,
+      "offset": 71411,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 71454,
+      "offset": 71552,
       "length": 9,
       "value": "\"Playing\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 71490,
+      "offset": 71588,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 71549,
+      "offset": 71647,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 71594,
+      "offset": 71692,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 71684,
+      "offset": 71782,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 71793,
+      "offset": 71891,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 71863,
+      "offset": 71961,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 71922,
+      "offset": 72020,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 72038,
+      "offset": 72136,
       "length": 7,
       "value": "\"Pause\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 72141,
+      "offset": 72239,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 72216,
+      "offset": 72314,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 72310,
+      "offset": 72408,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 72472,
+      "offset": 72570,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 72548,
+      "offset": 72646,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 72643,
+      "offset": 72741,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 72793,
+      "offset": 72891,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 72852,
+      "offset": 72950,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 72930,
+      "offset": 73028,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 73054,
+      "offset": 73152,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 73164,
+      "offset": 73262,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 73291,
+      "offset": 73389,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 73459,
+      "offset": 73557,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 73576,
+      "offset": 73674,
       "length": 7,
       "value": "\"Hover\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 74093,
+      "offset": 74191,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 74168,
+      "offset": 74266,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 74262,
+      "offset": 74360,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 74424,
+      "offset": 74522,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 74500,
+      "offset": 74598,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 74595,
+      "offset": 74693,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 74745,
+      "offset": 74843,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 74804,
+      "offset": 74902,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 74882,
+      "offset": 74980,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 74951,
+      "offset": 75049,
       "length": 5,
       "value": "\"End\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 74983,
+      "offset": 75081,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 75080,
+      "offset": 75178,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 75155,
+      "offset": 75253,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 75268,
+      "offset": 75366,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 75428,
+      "offset": 75526,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 75504,
+      "offset": 75602,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 75618,
+      "offset": 75716,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 75766,
+      "offset": 75864,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 75825,
+      "offset": 75923,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 75903,
+      "offset": 76001,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 76121,
+      "offset": 76219,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 76188,
+      "offset": 76286,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 76243,
+      "offset": 76341,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 76442,
+      "offset": 76540,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 76491,
+      "offset": 76589,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 76552,
+      "offset": 76650,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 76614,
+      "offset": 76712,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 76666,
+      "offset": 76764,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 76945,
+      "offset": 77043,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 76999,
+      "offset": 77097,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 77068,
+      "offset": 77166,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 77240,
+      "offset": 77338,
       "length": 6,
       "value": "\"Hide\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 77292,
+      "offset": 77390,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 77341,
+      "offset": 77439,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 77387,
+      "offset": 77485,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 77431,
+      "offset": 77529,
       "length": 21,
       "value": "\"Show remaining time\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 77498,
+      "offset": 77596,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 77548,
+      "offset": 77646,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 77594,
+      "offset": 77692,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 77638,
+      "offset": 77736,
       "length": 20,
       "value": "\"Show progress time\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 77704,
+      "offset": 77802,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 77754,
+      "offset": 77852,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 77800,
+      "offset": 77898,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 77844,
+      "offset": 77942,
       "length": 30,
       "value": "\"Show progress and total time\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 78171,
+      "offset": 78269,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 78221,
+      "offset": 78319,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 78268,
+      "offset": 78366,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 78451,
+      "offset": 78549,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 78599,
+      "offset": 78697,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 78697,
+      "offset": 78795,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 78744,
+      "offset": 78842,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 78818,
+      "offset": 78916,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 78977,
+      "offset": 79075,
       "length": 7,
       "value": "\"Hover\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 79188,
+      "offset": 79286,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 79200,
+      "offset": 79298,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 79272,
+      "offset": 79370,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 79309,
+      "offset": 79407,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "FloatLiteral",
-      "offset": 79465,
+      "offset": 79563,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 79548,
+      "offset": 79646,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 79802,
+      "offset": 79900,
       "length": 34,
       "value": "\"BBNativePlayerView - videoDidEnd\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 80698,
+      "offset": 80796,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 80785,
+      "offset": 80883,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 80909,
+      "offset": 81007,
       "length": 6,
       "value": "\"rate\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 80995,
+      "offset": 81093,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 81027,
+      "offset": 81125,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 81079,
+      "offset": 81177,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 81131,
+      "offset": 81229,
       "length": 7,
       "value": "\"pause\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 81333,
+      "offset": 81431,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 81366,
+      "offset": 81464,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 81417,
+      "offset": 81515,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 81470,
+      "offset": 81568,
       "length": 6,
       "value": "\"play\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 81696,
+      "offset": 81794,
       "length": 30,
       "value": "\"currentItem.loadedTimeRanges\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 81869,
+      "offset": 81967,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 82661,
+      "offset": 82759,
       "length": 11,
       "value": "\"Lato-Bold\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 82680,
+      "offset": 82778,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 82772,
+      "offset": 82870,
       "length": 10,
       "value": "\"duration\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 82961,
+      "offset": 83059,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 82992,
+      "offset": 83090,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 83078,
+      "offset": 83176,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 83202,
+      "offset": 83300,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 83445,
+      "offset": 83543,
       "length": 42,
       "value": "\"BBNativePlayerView - addTimeObserver ***\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 83905,
+      "offset": 84003,
       "length": 13,
       "value": "\"currentTime\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 84388,
+      "offset": 84486,
       "length": 45,
       "value": "\"BBNativePlayerView - removeTimeObserver ***\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 84749,
+      "offset": 84847,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 84801,
+      "offset": 84899,
       "length": 11,
       "value": "\"volumeoff\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 85007,
+      "offset": 85105,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 85016,
+      "offset": 85114,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 85027,
+      "offset": 85125,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 85037,
+      "offset": 85135,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 85104,
+      "offset": 85202,
       "length": 10,
       "value": "\"volumeon\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 85309,
+      "offset": 85407,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 85318,
+      "offset": 85416,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 85329,
+      "offset": 85427,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 85339,
+      "offset": 85437,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 86162,
+      "offset": 86260,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 86274,
+      "offset": 86372,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 86383,
+      "offset": 86481,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 86496,
+      "offset": 86594,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 86611,
+      "offset": 86709,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 86787,
+      "offset": 86885,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 86940,
+      "offset": 87038,
       "length": 47,
       "value": "\"BBNativePlayerView - activateSwipeDownToClose\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 87313,
+      "offset": 87411,
       "length": 44,
       "value": "\"BBNativePlayerView - respondToSwipeGesture\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 87904,
+      "offset": 88002,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 88046,
+      "offset": 88144,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 88152,
+      "offset": 88250,
       "length": 42,
       "value": "\"BBNativePlayerView - removeFromSuperview\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 88369,
+      "offset": 88467,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 88453,
+      "offset": 88551,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 88671,
+      "offset": 88769,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 88688,
+      "offset": 88786,
       "length": 33,
       "value": "\"BBNativePlayerView - __destruct\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 89666,
+      "offset": 89764,
       "length": 30,
       "value": "\"currentItem.loadedTimeRanges\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 89751,
+      "offset": 89849,
       "length": 6,
       "value": "\"rate\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 91278,
+      "offset": 91376,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 93024,
+      "offset": 93122,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 93091,
+      "offset": 93189,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 93349,
+      "offset": 93447,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 93487,
+      "offset": 93585,
       "length": 12,
       "value": "\"fullscreen\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 93502,
+      "offset": 93600,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 94352,
+      "offset": 94450,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 94420,
+      "offset": 94518,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 95189,
+      "offset": 95287,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 97496,
+      "offset": 97594,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 97540,
+      "offset": 97638,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 97869,
+      "offset": 97967,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/BBNativePlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 97913,
+      "offset": 98011,
       "length": 5,
       "value": "false"
     },
@@ -20462,19 +20486,19 @@
       "kind": "StringLiteral",
       "offset": 258,
       "length": 10,
-      "value": "\"F1035086\""
+      "value": "\"1F61A3A5\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Helpers\/ChromeCastHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 401,
+      "offset": 415,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Helpers\/ChromeCastHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 956,
+      "offset": 970,
       "length": 4,
       "value": "true"
     },
@@ -20533,6 +20557,517 @@
       "offset": 1969,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 542,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 872,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 937,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1163,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1209,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1219,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 1274,
+      "length": 11,
+      "value": "\"Lato-Bold\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1293,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 1349,
+      "length": 14,
+      "value": "\"Lato-Regular\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1371,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1491,
+      "length": 3,
+      "value": "-35"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1507,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1589,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1603,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1681,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1695,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1759,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1774,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1918,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1932,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2023,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2037,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2124,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2138,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2211,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2227,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 2295,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2946,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2949,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2952,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3033,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3190,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3200,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3211,
+      "length": 6,
+      "value": "\"days\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3267,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3279,
+      "length": 7,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3359,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3371,
+      "length": 5,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3376,
+      "length": 6,
+      "value": "\"days\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3573,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3583,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3594,
+      "length": 5,
+      "value": "\"day\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3649,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3661,
+      "length": 7,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3741,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3753,
+      "length": 5,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3758,
+      "length": 5,
+      "value": "\"day\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 4359,
+      "length": 13,
+      "value": "\"embedObject\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 4862,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 4929,
+      "length": 3,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 4958,
+      "length": 4,
+      "value": "\"ff\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 5264,
+      "length": 9,
+      "value": "\"Live in\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5441,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5451,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 5462,
+      "length": 8,
+      "value": "\"liveIn\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 5714,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 6028,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 6097,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6174,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 6416,
+      "length": 10,
+      "value": "\"clipData\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 6624,
+      "length": 26,
+      "value": "\"E, d MMM yyyy HH:mm:ss Z\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6960,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "StringLiteral",
+      "offset": 7221,
+      "length": 15,
+      "value": "\"remainingTime\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7283,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7340,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7382,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7385,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7388,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7674,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7726,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7821,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/EmbargoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7873,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/AdvertisementPlaceHolderView.swift",
@@ -23988,168 +24523,154 @@
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 529,
+      "offset": 623,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 556,
+      "offset": 650,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 650,
+      "offset": 744,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 905,
+      "offset": 999,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 932,
+      "offset": 1026,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1026,
+      "offset": 1120,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1266,
+      "offset": 1360,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1276,
+      "offset": 1370,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 1332,
+      "offset": 1426,
       "length": 11,
       "value": "\"Lato-Bold\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1351,
+      "offset": 1445,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 1400,
+      "offset": 1494,
       "length": 14,
       "value": "\"Lato-Regular\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1422,
+      "offset": 1516,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1536,
+      "offset": 1630,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1550,
+      "offset": 1644,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1627,
+      "offset": 1721,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1641,
+      "offset": 1735,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1720,
+      "offset": 1814,
       "length": 3,
       "value": "-50"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1736,
+      "offset": 1830,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1801,
+      "offset": 1895,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1816,
+      "offset": 1910,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1947,
+      "offset": 2041,
       "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1962,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2040,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2054,
+      "offset": 2056,
       "length": 4,
       "value": "true"
     },
@@ -24158,7 +24679,7 @@
       "kind": "IntegerLiteral",
       "offset": 2134,
       "length": 1,
-      "value": "0"
+      "value": "8"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
@@ -24170,280 +24691,329 @@
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2214,
-      "length": 2,
-      "value": "24"
+      "offset": 2228,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2229,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2327,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2444,
+      "offset": 2242,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2522,
+      "offset": 2308,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2323,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2421,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2538,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2616,
       "length": 2,
       "value": "-8"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2537,
+      "offset": 2631,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2636,
+      "offset": 2730,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2652,
+      "offset": 2746,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2752,
+      "offset": 2846,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2768,
+      "offset": 2862,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2986,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3098,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3178,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3260,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3344,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 2844,
+      "offset": 3429,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3195,
+      "offset": 3780,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3239,
+      "offset": 3824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 3453,
+      "offset": 4310,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 3483,
+      "offset": 4340,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 3844,
+      "offset": 4701,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 3922,
+      "offset": 4779,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4292,
+      "offset": 5149,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 4323,
+      "offset": 5180,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4425,
+      "offset": 5282,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4624,
+      "offset": 5481,
       "length": 4,
       "value": "-100"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4641,
+      "offset": 5498,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4718,
+      "offset": 5575,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4732,
+      "offset": 5589,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4811,
+      "offset": 5668,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4827,
+      "offset": 5684,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4892,
+      "offset": 5749,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4907,
+      "offset": 5764,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 5582,
+      "offset": 6540,
       "length": 13,
       "value": "\"embedObject\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 6201,
+      "offset": 7159,
       "length": 90,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 6213,
+      "offset": 7171,
       "length": 1,
       "value": "\"\/mediaclip\/\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 6233,
+      "offset": 7191,
       "length": 1,
       "value": "\"\/pthumbnail\/\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6275,
+      "offset": 7233,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 6278,
+      "offset": 7236,
       "length": 1,
       "value": "\"\/default.png\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 6616,
+      "offset": 7574,
       "length": 10,
       "value": "\"clipData\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6907,
+      "offset": 7865,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6947,
+      "offset": 7905,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 7160,
+      "offset": 8118,
       "length": 7,
       "value": "\"phase\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7285,
+      "offset": 8243,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/Views\/StartScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7334,
+      "offset": 8292,
       "length": 5,
       "value": "false"
     },
@@ -24760,656 +25330,677 @@
       "kind": "StringLiteral",
       "offset": 564,
       "length": 10,
-      "value": "\"F1035086\""
+      "value": "\"1F61A3A5\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 653,
+      "offset": 667,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1088,
+      "offset": 1102,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1163,
+      "offset": 1177,
       "length": 4,
       "value": "0.20"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1277,
+      "offset": 1291,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1478,
+      "offset": 1492,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1574,
+      "offset": 1588,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1820,
+      "offset": 1834,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1850,
+      "offset": 1864,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1950,
+      "offset": 1964,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2180,
+      "offset": 2194,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2186,
+      "offset": 2200,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2196,
+      "offset": 2210,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2208,
+      "offset": 2222,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2256,
+      "offset": 2270,
       "length": 12,
       "value": "\"chromecast\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2413,
+      "offset": 2427,
       "length": 11,
       "value": "\"#B3B2B0FF\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2583,
+      "offset": 2597,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2634,
+      "offset": 2648,
       "length": 11,
       "value": "\"#B3B2B0FF\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3386,
+      "offset": 3400,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3392,
+      "offset": 3406,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3402,
+      "offset": 3416,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3414,
+      "offset": 3428,
       "length": 2,
       "value": "31"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3468,
+      "offset": 3482,
       "length": 11,
       "value": "\"#B3B2B0FF\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3521,
+      "offset": 3535,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7340,
+      "offset": 7354,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7561,
+      "offset": 7575,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7670,
+      "offset": 7684,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7782,
+      "offset": 7796,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7887,
+      "offset": 7901,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8026,
+      "offset": 8040,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8090,
+      "offset": 8104,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8509,
+      "offset": 8523,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8524,
+      "offset": 8538,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8628,
+      "offset": 8642,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8642,
+      "offset": 8656,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8748,
+      "offset": 8762,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8764,
+      "offset": 8778,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8831,
+      "offset": 8845,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8846,
+      "offset": 8860,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8889,
+      "offset": 8903,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9073,
+      "offset": 9087,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9118,
+      "offset": 9132,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9217,
+      "offset": 9231,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9628,
+      "offset": 9642,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9991,
+      "offset": 10005,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10997,
+      "offset": 11011,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11052,
+      "offset": 11066,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11182,
+      "offset": 11196,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11238,
+      "offset": 11252,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11576,
+      "offset": 11590,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11638,
+      "offset": 11652,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15520,
+      "offset": 15534,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15580,
+      "offset": 15594,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15663,
+      "offset": 15677,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15722,
+      "offset": 15736,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16586,
+      "offset": 16600,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16604,
+      "offset": 16618,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16810,
+      "offset": 16824,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16834,
+      "offset": 16848,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16909,
+      "offset": 16923,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16939,
+      "offset": 16953,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17116,
+      "offset": 17130,
       "length": 14,
       "value": "\"thumbnailUrl\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17259,
+      "offset": 17273,
       "length": 3,
       "value": "480"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17308,
+      "offset": 17322,
       "length": 3,
       "value": "360"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17526,
+      "offset": 17540,
       "length": 13,
       "value": "\"contentType\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17556,
+      "offset": 17570,
       "length": 11,
       "value": "\"video\/mp4\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17667,
+      "offset": 17626,
+      "length": 31,
+      "value": "\"application\/vnd.apple.mpegurl\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17690,
+      "length": 8,
+      "value": "\"isLive\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17714,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 18012,
       "length": 10,
       "value": "\"playerId\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17733,
+      "offset": 18078,
       "length": 10,
       "value": "\"playerId\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18905,
+      "offset": 19250,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19005,
+      "offset": 19350,
       "length": 18,
       "value": "\"preload_time_sec\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20065,
+      "offset": 20410,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20228,
+      "offset": 20573,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20437,
+      "offset": 20782,
       "length": 20,
       "value": "\"Playing on \""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20456,
+      "offset": 20801,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20520,
+      "offset": 20865,
       "length": 29,
       "value": "\"Playing on Connected Device\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20661,
+      "offset": 21006,
       "length": 22,
       "value": "\"Connected to \""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20682,
+      "offset": 21027,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20746,
+      "offset": 21091,
       "length": 31,
       "value": "\"Connected to Connected Device\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21255,
+      "offset": 21600,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21291,
+      "offset": 21636,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21378,
+      "offset": 21723,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21413,
+      "offset": 21758,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22217,
+      "offset": 22562,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22349,
+      "offset": 22694,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22701,
+      "offset": 23046,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23097,
+      "offset": 23442,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23452,
+      "offset": 23797,
       "length": 8,
       "value": "\"Cast  \""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23474,
+      "offset": 23819,
       "length": 5,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26088,
+      "offset": 26433,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26094,
+      "offset": 26439,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26104,
+      "offset": 26449,
       "length": 2,
       "value": "58"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26116,
+      "offset": 26461,
       "length": 2,
       "value": "47"
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26170,
+      "offset": 26515,
       "length": 11,
       "value": "\"#B3B2B0FF\""
     },
     {
       "filePath": "\/Users\/martijnbots\/git\/bbnativeplayerkit-swift\/bbnativeplayerkit-swift\/BBNativePlayerKit\/BBNativePlayerKit\/ChromeCast\/ChromeCastViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26223,
+      "offset": 26568,
       "length": 1,
       "value": "8"
     },
