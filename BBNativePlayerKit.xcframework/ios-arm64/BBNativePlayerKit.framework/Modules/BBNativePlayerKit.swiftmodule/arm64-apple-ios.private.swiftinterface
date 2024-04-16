@@ -142,6 +142,10 @@ extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVRoutePickerViewDelegate
   public var clipData: bbnativeshared.MediaClip? {
     get
   }
+  public var relatedItems: [any bbnativeshared.ContentItemInterface]? {
+    get
+    set
+  }
   public var volume: Swift.Float? {
     get
     set
