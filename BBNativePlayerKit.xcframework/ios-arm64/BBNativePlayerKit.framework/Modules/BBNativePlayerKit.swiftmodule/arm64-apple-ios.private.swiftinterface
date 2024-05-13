@@ -107,6 +107,38 @@ extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVPlayerViewControllerDel
 }
 extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVRoutePickerViewDelegate {
 }
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BBNativeShortsViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) public func __destruct()
+  @objc deinit
+}
+extension BBNativePlayerKit.BBNativeShortsViewController : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
+}
+extension BBNativePlayerKit.BBNativeShortsViewController : bbnativeshared.EventListenerInterface {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onEvent(eventType: bbnativeshared.EventName, data: [Swift.String : Any]?)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BBNativeShortsView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any BBNativePlayerKit.BBNativeShortsViewDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func removeFromSuperview()
+  @objc deinit
+}
+extension BBNativePlayerKit.BBNativeShortsView : bbnativeshared.EventListenerInterface {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onEvent(eventType: bbnativeshared.EventName, data: [Swift.String : Any]?)
+}
+extension BBNativePlayerKit.BBNativeShortsView : BBNativePlayerKit.BBNativePlayerViewDelegate {
+}
 @_hasMissingDesignatedInitializers public class BBNativePlayerAPI {
   public func closeModalPlayer()
   public func getModalPlayerView() -> UIKit.UIView?
@@ -150,10 +182,12 @@ extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVRoutePickerViewDelegate
     get
     set
   }
+  public func setVolume(volume: Swift.Double, userAction: Swift.Bool = false)
   public var muted: Swift.Bool? {
     get
     set
   }
+  public func setMuted(muted: Swift.Bool, userAction: Swift.Bool = false)
   public var inView: Swift.Bool? {
     get
     set
@@ -189,6 +223,17 @@ extension BBNativePlayerKit.BBNativePlayerView : AVKit.AVRoutePickerViewDelegate
   public static func createPlayerView(uiViewController: UIKit.UIViewController, frame: CoreFoundation.CGRect, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativePlayerView
   public static func createModalPlayerView(uiViewContoller: UIKit.UIViewController, jsonUrl: Swift.String, options: [Swift.String : Any]?) -> BBNativePlayerKit.BBNativePlayerView
   public static func createModalPlayerView(uiViewContoller: UIKit.UIViewController, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativePlayerView
+  public static func createJsonEmbedUrl(baseUrl: Swift.String, appIndicator: Swift.String, appId: Swift.String, contentIndicator: Swift.String? = nil, contentId: Swift.String? = nil) -> Swift.String
+  @objc deinit
+}
+@objc public protocol BBNativeShortsViewDelegate {
+  @objc optional func bbNativeShortsView(shortsView: BBNativePlayerKit.BBNativeShortsView, didSetupWithJsonUrl url: Swift.String?)
+  @objc optional func bbNativeShortsView(shortsView: BBNativePlayerKit.BBNativeShortsView, didFailWithError error: Swift.String?)
+  @objc optional func bbNativeShortsView(shortsView: BBNativePlayerKit.BBNativeShortsView, didTriggerResize width: Swift.Int, height: Swift.Int)
+}
+@_hasMissingDesignatedInitializers public class BBNativeShorts {
+  public static func createShortsView(uiViewController: UIKit.UIViewController, frame: CoreFoundation.CGRect, jsonUrl: Swift.String, options: [Swift.String : Any]?) -> BBNativePlayerKit.BBNativeShortsView
+  public static func createShortsView(uiViewController: UIKit.UIViewController, frame: CoreFoundation.CGRect, jsonUrl: Swift.String) -> BBNativePlayerKit.BBNativeShortsView
   public static func createJsonEmbedUrl(baseUrl: Swift.String, appIndicator: Swift.String, appId: Swift.String, contentIndicator: Swift.String? = nil, contentId: Swift.String? = nil) -> Swift.String
   @objc deinit
 }

@@ -572,6 +572,77 @@ SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativePlayerViewDelegate_")
 - (void)bbNativePlayerViewWithDidTriggerUIPanGesture:(BBNativePlayerView * _Nonnull)playerView translation:(CGPoint)translation velocity:(CGPoint)velocity location:(CGPoint)location state:(UIGestureRecognizerState)state;
 @end
 
+
+/// ShortsView used to display Blue Billywig Shorts Experience
+SWIFT_CLASS("_TtC17BBNativePlayerKit18BBNativeShortsView")
+@interface BBNativeShortsView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+/// :nodoc:
+- (void)removeFromSuperview;
+@end
+
+
+@interface BBNativeShortsView (SWIFT_EXTENSION(BBNativePlayerKit)) <BBNativePlayerViewDelegate>
+@end
+
+
+@interface BBNativeShortsView (SWIFT_EXTENSION(BBNativePlayerKit)) <BbnativesharedEventListenerInterface>
+- (void)onEventEventType:(BbnativesharedEventName * _Nonnull)eventType data:(NSDictionary<NSString *, id> * _Nullable)data;
+@end
+
+
+/// :nodoc:
+SWIFT_CLASS("_TtC17BBNativePlayerKit28BBNativeShortsViewController")
+@interface BBNativeShortsViewController : UIViewController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@end
+
+
+@interface BBNativeShortsViewController (SWIFT_EXTENSION(BBNativePlayerKit)) <BbnativesharedEventListenerInterface>
+- (void)onEventEventType:(BbnativesharedEventName * _Nonnull)eventType data:(NSDictionary<NSString *, id> * _Nullable)data;
+@end
+
+
+@interface BBNativeShortsViewController (SWIFT_EXTENSION(BBNativePlayerKit)) <UIGestureRecognizerDelegate>
+- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldReceiveTouch:(UITouch * _Nonnull)touch SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_PROTOCOL("_TtP17BBNativePlayerKit26BBNativeShortsViewDelegate_")
+@protocol BBNativeShortsViewDelegate
+@optional
+/// View was setup with json
+/// \param shortsView UIView
+///
+/// \param url String
+///
+- (void)bbNativeShortsViewWithShortsView:(BBNativeShortsView * _Nonnull)shortsView didSetupWithJsonUrl:(NSString * _Nullable)url;
+/// Player embed failed
+/// \param shortsView UIView
+///
+/// \param error String
+///
+- (void)bbNativeShortsViewWithShortsView:(BBNativeShortsView * _Nonnull)shortsView didFailWithError:(NSString * _Nullable)error;
+/// The size of the view has changed
+/// \param shortsView UIView
+///
+/// \param width Int
+///
+/// \param height Int
+///
+- (void)bbNativeShortsViewWithShortsView:(BBNativeShortsView * _Nonnull)shortsView didTriggerResize:(NSInteger)width height:(NSInteger)height;
+@end
+
 @class GCKSessionManager;
 @class GCKSession;
 @class GCKRequest;
