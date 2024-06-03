@@ -10,7 +10,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/bluebillywig/bbnativeshared-cocoapod", exact: "8.1.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios", exact: "3.19.1"),
-        .package(url: "https://github.com/googleads/swift-package-manager-google-user-messaging-platform", from: "2.4.0")
+        .package(url: "https://github.com/googleads/swift-package-manager-google-user-messaging-platform", "1.1.0"..<"3.0.0")
     ],
     targets: [
         .binaryTarget(
@@ -27,7 +27,7 @@ let package = Package(
             dependencies: [
                 .product(name: "BlueBillywigNativeShared-iOS", package: "bbnativeshared-cocoapod"),
                 .product(name: "GoogleInteractiveMediaAds", package: "swift-package-manager-google-interactive-media-ads-ios"),
-                .product(name: "GoogleUserMessagingPlatform", package: "swift-package-manager-google-user-messaging-platform"),
+                .product(name: "GoogleUserMessagingPlatform", package: "GoogleUserMessagingPlatform"),
                 .target(name: "google-cast-sdk-ios"),
                 .target(name: "BBNativePlayerKit")
             ]
