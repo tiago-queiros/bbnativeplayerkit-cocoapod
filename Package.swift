@@ -24,6 +24,9 @@ let package = Package(
         ),
         .target(
             name: "BBNativePlayerKitTargets",
+            cSettings: [
+                .unsafeFlags(["-w"])
+            ],
             dependencies: [
                 .product(name: "BlueBillywigNativeShared-iOS", package: "bbnativeshared-cocoapod"),
                 .product(name: "GoogleInteractiveMediaAds", package: "swift-package-manager-google-interactive-media-ads-ios"),
