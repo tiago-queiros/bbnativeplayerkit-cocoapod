@@ -25,7 +25,7 @@ let package = Package(
         .target(
             name: "BBNativePlayerKitTargets",
             cSettings: [
-                .unsafeFlags(["-w"])
+                .unsafeFlags(["-w"]),
             ],
             dependencies: [
                 .product(name: "BlueBillywigNativeShared-iOS", package: "bbnativeshared-cocoapod"),
